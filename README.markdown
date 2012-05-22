@@ -19,7 +19,7 @@ Adverse Selection is a review game for introductory economics students. It featu
 
 ## Implementation details
 
-HTML, CSS <support until i.e. 8>, JS <with jQuery>
+HTML, CSS (support until i.e. 8), JS (with jQuery)
 
 # Style Guide
 
@@ -38,9 +38,9 @@ HTML, CSS <support until i.e. 8>, JS <with jQuery>
 **JS control flow statements**
 ```javascript
 if (){ // one space between control flow and parens to avoid confusion with function; bracket on same line
-    
-    // 1 space after opening bracket and before closing bracket
 
+    // stuff
+    
 }
 ```
 

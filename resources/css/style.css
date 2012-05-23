@@ -1,9 +1,12 @@
 html, body {
     padding:5px;
     margin:0px;
+    background-color: #EEE;
+    height:100%;
+    overflow:hidden;
 }
 #header {
-    background-color:#EEE;
+    background-color:#DDD;
     position:relative;
     margin-top:10px;
     margin-bottom:10px;
@@ -44,8 +47,71 @@ html, body {
     right:5px;
     text-align:right;
 }
-#question{
+#question {
     margin-top:20px;
-    background-color:#EEE;
+    background-color:#FFF;
     padding:10px;
+    font-size:20px;
+}
+#question #questionGraph{
+    border:2px dashed #CCC;
+    width:200px;
+    height:200px;
+    float:right;
+}
+.glue {
+    width:0px;
+    height:0px;
+    clear:both;
+}
+#buzz1 {
+    position: absolute;
+    background-color: #CCC;
+    left:0px;
+    bottom:100px;
+    padding:10px;
+    text-align:center;
+    font-size:20px;
+}
+#buzz2 {
+    position: absolute;
+    background-color: #CCC;
+    right:0px;
+    bottom:100px;
+    padding:10px;
+    text-align:center;
+    font-size:20px;
+}
+.buzzer {
+    padding:30px;
+    background-color:#F00;
+    border:1px solid #D00;
+}
+.keyForBuzzer {
+    margin-top:5px;
+    font-size:10px;
+}
+#answerWrapper {
+    margin-top:10px;
+    position: relative;
+}
+#answer {
+    background-color:#CCC;
+    width:400px;
+    display: inline-block;
+    position: absolute;
+    top:0px;
+    left:50%;
+    padding:10px;
+    margin-left:-200px;
+}
+#answerInput {
+    background-color: #999;
+    margin-bottom:10px;
+    padding:5px;
+}
+.autocompleted {
+    background-color: #999;
+    border-bottom:1px dashed #666;
+    padding:5px;
 }

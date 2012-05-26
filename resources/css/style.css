@@ -100,7 +100,6 @@ html, body {
 }
 #answer {
     background-color:#CCC;
-    width:400px;
     display: inline-block;
     position: absolute;
     top:0px;
@@ -108,13 +107,8 @@ html, body {
     padding:10px;
     margin-left:-200px;
 }
-#answerInput {
-    background-color: #999;
+#answerTextfield {
     margin-bottom:10px;
     padding:5px;
-}
-.autocompleted {
-    background-color: #999;
-    border-bottom:1px dashed #666;
-    padding:5px;
+    width:400px;
 }

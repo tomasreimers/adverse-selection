@@ -3,7 +3,7 @@ var deck = new Array(); // stores shuffled indexes of questions to provide the u
 
 function loadQuestions(callback){
     // TODO: Load XML Files here
-    questions = [["Which way will the demand curve shift if demand increases?", 2], ["Which way will the demand curve shift if demand decreases?", 1], ["Economist that advocated for investment spending", 0]];
+    questions = [[2, "Which way will the demand curve shift if demand increases?", 0], [1, "What is the name of this curve?", 1], [0, "Economist that advocated for investment spending", 0]];
     // shuffle questions
     makeDeck();
     callback("questions");

@@ -53,11 +53,15 @@ html, body {
     padding:10px;
     font-size:20px;
 }
-#question #questionGraph{
+#question #questionSupplement{
     border:2px dashed #CCC;
     width:200px;
     height:200px;
     float:right;
+}
+#supplementalImage{
+	width: 200px;
+	height:200px;
 }
 .glue {
     width:0px;

@@ -69,15 +69,23 @@ function startRound(){
     currentlyGuessing = false;
     teamAlreadyFailed = 0;
     toggleRounds();
+	//set displayed question and supplemental image
     $("#questionText").html("");
+	if (currentQuestion[2] != 0){
+		image = "resources/img/supplements/" + currentQuestion[2] + ".jpg";
+	}
+	else{
+		image = "resources/img/supplements/nograph.jpg";
+	}
+	$("#supplementalImage").attr("src", image);
     nextLetterTimeoutHandle = setTimeout("revealLetter()", questionSpeed);
 }
 function revealLetter(){
     // reveals next letter
     var currentLength = ($("#questionText").html()).length;
-    $("#questionText").html(currentQuestion[0].substr(0,(currentLength + 1)));
+    $("#questionText").html(currentQuestion[1].substr(0,(currentLength + 1)));
     // check if more letters to reveal
-    if ((currentLength + 1) < currentQuestion[0].length){
+    if ((currentLength + 1) < currentQuestion[1].length){
         nextLetterTimeoutHandle = setTimeout("revealLetter()", questionSpeed);
     }
     else {
@@ -174,7 +182,7 @@ function makeGuess(){
     // get id for guess
     var guessId = answer2id(guess);
     // test if correct
-    if (currentQuestion[1] == guessId){
+    if (currentQuestion[0] == guessId){
         awardPoint(teamCurrentlyAnswering);
     }
     else {

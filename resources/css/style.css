@@ -118,18 +118,22 @@ html, body {
     margin-top:5px;
     font-size:10px;
 }
-#answerWrapper {
+#middleWrapper {
     margin-top:10px;
     position: relative;
 }
-#answer {
+#answer, #winner {
     background-color:#CCC;
-    display: inline-block;
     position: absolute;
     top:0px;
     left:50%;
     padding:10px;
     margin-left:-200px;
+}
+#winner {
+	display: none;
+	width: 400px;
+	text-align: center;
 }
 #answerTextfield {
     margin-bottom:10px;

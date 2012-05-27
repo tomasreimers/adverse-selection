@@ -7,8 +7,8 @@ var questionsLoaded = false;
 var answersLoaded = false;
 var team1Score = 0;
 var team2Score = 0;
-var currentRound = 0;
-var totalRounds = 0;
+var currentRound = 1;
+var totalRounds = 5;
 var questionSpeed = 100;
 var currentQuestion;
 var turnTime = 20;
@@ -64,26 +64,36 @@ function awardPoint(whichTeam){
 }
 
 function startRound(){
-    // TODO: Make sure a round should actually be started (i.e. current round < total round)
-	// clear round variables and displays
-    $("#answerTextfield")[0].blur();
-    $("#answerTextfield")[0].value = "";
-    $("#answerTextfield")[0].disabled = true;
-    currentQuestion = getNextQuestion();
-    currentlyGuessing = false;
-    teamAlreadyFailed = 0;
-    toggleRounds();
-	// set displayed question and supplemental image
-    $("#questionText").html("");
-	if (currentQuestion[2] != 0){
-		image = "resources/img/supplements/" + currentQuestion[2] + ".jpg";
-		$("#supplementalImage").attr("src", image);
-		$("#questionSupplement").show()
+    // Check if game is done
+	var neededScore = Math.ceil(totalRounds / 2)
+	if (team1Score == neededScore){
+		endGame(1);
 	}
+	else if (team2Score == neededScore){
+		endGame(2);
+	}
+	// Not done, so continue on to next round
 	else{
-		$("#questionSupplement").hide()
+		// clear round variables and displays
+		$("#answerTextfield")[0].blur();
+		$("#answerTextfield")[0].value = "";
+		$("#answerTextfield")[0].disabled = true;
+		currentQuestion = getNextQuestion();
+		currentlyGuessing = false;
+		teamAlreadyFailed = 0;
+		toggleRounds();
+		// set displayed question and supplemental image
+		$("#questionText").html("");
+		if (currentQuestion[2] != 0){
+			image = "resources/img/supplements/" + currentQuestion[2] + ".jpg";
+			$("#supplementalImage").attr("src", image);
+			$("#questionSupplement").show()
+		}
+		else{
+			$("#questionSupplement").hide()
+		}
+		nextLetterTimeoutHandle = setTimeout("revealLetter()", questionSpeed);
 	}
-    nextLetterTimeoutHandle = setTimeout("revealLetter()", questionSpeed);
 }
 
 function revealLetter(){
@@ -143,6 +153,15 @@ function toggleClock(){
 function toggleRounds(){
     $("#roundText").html("Round");
     $("#roundContent").html(currentRound.toString() + " of " + totalRounds.toString());
+}
+
+function endGame(winningTeam){
+	// Remove text field
+	$("#answerTextfield")[0].blur();
+	$("#answer").hide();
+	// Show winner
+	$("#winner").show();
+	$("#winner").html("Team " + winningTeam + " wins!");
 }
 
 // *****************************

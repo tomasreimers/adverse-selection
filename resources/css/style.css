@@ -112,7 +112,8 @@ html, body {
     border:1px solid #D00;
     display:inline-block;
     text-decoration:none;
-    color:#000;
+    color:#FFF;
+	font-weight:bold;
 }
 .keyForBuzzer {
     margin-top:5px;
@@ -120,9 +121,9 @@ html, body {
 }
 #middleWrapper {
     margin-top:10px;
-    position: relative;
+    position:relative;
 }
-#answer, #winner {
+#answer, #winBox {
     background-color:#CCC;
     position: absolute;
     top:0px;
@@ -130,13 +131,26 @@ html, body {
     padding:10px;
     margin-left:-200px;
 }
-#winner {
-	display: none;
-	width: 400px;
-	text-align: center;
-}
 #answerTextfield {
     margin-bottom:10px;
     padding:5px;
     width:400px;
+}
+#winBox {
+	display:none;
+	text-align:center;
+}
+#winner {
+	width:400px;
+	text-align:center;
+}
+#newGame {
+	padding:10px;
+	margin-top: 10px;
+    background-color:#F00;
+    border:1px solid #D00;
+    display:inline-block;
+    text-decoration:none;
+    color:#FFF;
+	font-weight:bold;
 }

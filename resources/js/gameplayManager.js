@@ -8,7 +8,7 @@ var answersLoaded = false;
 var team1Score = 0;
 var team2Score = 0;
 var currentRound = 1;
-var totalRounds = 5;
+var totalRounds = 1;
 var questionSpeed = 100;
 var currentQuestion;
 var turnTime = 20;
@@ -160,8 +160,12 @@ function endGame(winningTeam){
 	$("#answerTextfield")[0].blur();
 	$("#answer").hide();
 	// Show winner
-	$("#winner").show();
+	$("#winBox").show();
 	$("#winner").html("Team " + winningTeam + " wins!");
+}
+
+function newGame(){
+	location.reload();
 }
 
 // *****************************

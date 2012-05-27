@@ -2,7 +2,7 @@
 // ********* VARS **************
 // *****************************
 
-// necessary variables
+// general variables
 var questionsLoaded = false;
 var answersLoaded = false;
 var team1Score = 0;
@@ -16,42 +16,44 @@ var turnTimeLeft = 0;
 var teamAlreadyFailed = 0; // 0: neither, 1: team 1, 2: team 2
 var teamCurrentlyAnswering;
 var currentlyGuessing = false;
+
 // handles
 var nextLetterTimeoutHandle;
 var turnTimerTimeoutHandle;
-// load variables with data
+
+// load user variables with data
 function initGameVariables(){
     // TODO: actually load variables
 }
+
 // *****************************
 // ********* Game Cycle ********
 // *****************************
-// makes sure all assets are loaded
+
 function beginGame(whatLoaded){
-    // remember what's loaded
+    // check if all assets are loaded
     if (whatLoaded == 'questions'){
         questionsLoaded = true;
     }
     if (whatLoaded == 'answers'){
         answersLoaded = true;
-        // load answer to autocomplete
+        // load answers to autocomplete
         $("#answerTextfield").quickselect({
             data : answers,
             onItemSelect: makeGuess
         });
     }
-    // begin game if all assets loaded
+	//if all loaded, start game
     if (questionsLoaded && answersLoaded){
-        // create game loop
         startRound();
     }
 }
+
 function awardPoint(whichTeam){
-    // give point
     if (whichTeam == 1){
         team1Score++;
     }
-    else {
+    else{
         team2Score++;
     }
     // render score
@@ -60,8 +62,10 @@ function awardPoint(whichTeam){
     // next round
     startRound();
 }
+
 function startRound(){
     // TODO: Make sure a round should actually be started (i.e. current round < total round)
+	// clear round variables and displays
     $("#answerTextfield")[0].blur();
     $("#answerTextfield")[0].value = "";
     $("#answerTextfield")[0].disabled = true;
@@ -69,7 +73,7 @@ function startRound(){
     currentlyGuessing = false;
     teamAlreadyFailed = 0;
     toggleRounds();
-	//set displayed question and supplemental image
+	// set displayed question and supplemental image
     $("#questionText").html("");
 	if (currentQuestion[2] != 0){
 		image = "resources/img/supplements/" + currentQuestion[2] + ".jpg";
@@ -81,15 +85,15 @@ function startRound(){
 	}
     nextLetterTimeoutHandle = setTimeout("revealLetter()", questionSpeed);
 }
+
 function revealLetter(){
-    // reveals next letter
     var currentLength = ($("#questionText").html()).length;
     $("#questionText").html(currentQuestion[1].substr(0,(currentLength + 1)));
     // check if more letters to reveal
     if ((currentLength + 1) < currentQuestion[1].length){
         nextLetterTimeoutHandle = setTimeout("revealLetter()", questionSpeed);
     }
-    else {
+    else{
         // if only one team left (i.e. other's guess was wrong), they must go
         if (teamAlreadyFailed == 1){
             buzz(2);
@@ -99,12 +103,12 @@ function revealLetter(){
         }
     }
 }
+
 function countdown(){
-    // calculate time left
+	// reduce time left and display remaining time
     turnTimeLeft--;
-    // render clock
     toggleClock();
-    // check if we need to call again later or call out of time
+    // check if no time is left
     if (turnTimeLeft > 0){
         turnTimerTimeoutHandle = setTimeout("countdown()", 1000);
     }
@@ -112,9 +116,10 @@ function countdown(){
         outOfTime();
     }
 }
+
 function outOfTime(){
-    toggleRounds();
-    // disable text field
+    // modify rounds text and disable text field
+	toggleRounds();
     $("#answerTextfield")[0].blur();
     $("#answerTextfield")[0].value = "";
     $("#answerTextfield")[0].disabled = true;
@@ -129,16 +134,19 @@ function outOfTime(){
         startRound();
     }
 }
+
 function toggleClock(){
     $("#roundText").html("Seconds Left");
     $("#roundContent").html(turnTimeLeft.toString());
 }
+
 function toggleRounds(){
     $("#roundText").html("Round");
     $("#roundContent").html(currentRound.toString() + " of " + totalRounds.toString());
 }
+
 // *****************************
-// ********* interaction *******
+// ********* Interaction *******
 // *****************************
 
 $(document).keypress(function(event){
@@ -157,13 +165,11 @@ $(document).keypress(function(event){
 });
 
 function buzz(whichTeam){
-    // make sure that team didn't already fail
     if ((whichTeam != teamAlreadyFailed) && !currentlyGuessing){
         // stop revealing letters
         clearTimeout(nextLetterTimeoutHandle);
         // update status
         currentlyGuessing = true;
-        // establish which team is answering
         teamCurrentlyAnswering = whichTeam;
         // give the text field focus and delete any extra chars from buzzing
         $("#answerTextfield")[0].disabled = false;
@@ -178,24 +184,21 @@ function buzz(whichTeam){
 function makeGuess(){
     // stop the timer
     clearTimeout(turnTimerTimeoutHandle);
-    // get guess
+    // get guess information and check if correct
     var guess = $("#answerTextfield")[0].value;
-    // get id for guess
-    var guessId = answer2id(guess);
-    // test if correct
+    var guessId = answerToID(guess);
     if (currentQuestion[0] == guessId){
         awardPoint(teamCurrentlyAnswering);
     }
-    else {
-        // same response as out of time
+    else{
         outOfTime();
     }
 }
 
 // *****************************
-// ********* Init **************
+// ********* Init Gameplay *****
 // *****************************
-// begin gameplay by loading questions and answers
+
 $(document).ready(function (){
     initGameVariables();
     loadQuestions(beginGame);

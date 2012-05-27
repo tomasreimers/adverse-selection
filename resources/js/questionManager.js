@@ -1,5 +1,5 @@
-var questions = new Array(); // stores questions and answer's ID
-var deck = new Array(); // stores shuffled indexes of questions to provide the user with a random sequence of questions
+var questions = new Array(); // stores: [answer id, question, image number]
+var deck = new Array(); // stores: shuffled question indexes
 
 function loadQuestions(callback){
     // TODO: Load XML Files here
@@ -8,6 +8,7 @@ function loadQuestions(callback){
     makeDeck();
     callback("questions");
 }
+
 function makeDeck(){
     questionLengthPlusOne = questions.length;
     for (var i = 0; i < questionLengthPlusOne; i++){
@@ -15,13 +16,13 @@ function makeDeck(){
         deck.splice(randomNumber, 0, i)
     }
 }
+
 function getNextQuestion(){
-    // make sure there is another question to get
+    // if no question to get, create questions
     if (deck.length == 0){
-        // shuffle a new deck
         makeDeck();
     }
-    // get next card
+    // otherwise, get next question
     var nextCard = deck.pop();
     return questions[nextCard];
 }

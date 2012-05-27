@@ -75,7 +75,7 @@ function startRound(){
 		image = "resources/img/supplements/" + currentQuestion[2] + ".jpg";
 	}
 	else{
-		image = "resources/img/supplements/nograph.jpg";
+		image = "resources/img/supplements/nograph.png";
 	}
 	$("#supplementalImage").attr("src", image);
     nextLetterTimeoutHandle = setTimeout("revealLetter()", questionSpeed);

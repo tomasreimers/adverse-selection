@@ -132,6 +132,21 @@ function toggleRounds(){
 // ********* interaction *******
 // *****************************
 
+$(document).keypress(function(event){
+	//for buzz key presses
+	if (!currentlyGuessing){
+		code = event.charCode;
+		switch (code){
+			case 97: //a
+				buzz(1);
+				break;
+			case 108: //l
+				buzz(2)
+				break;
+		}
+	}
+});
+
 function buzz(whichTeam){
     // make sure that team didn't already fail
     if ((whichTeam != teamAlreadyFailed) && !currentlyGuessing){
@@ -141,8 +156,9 @@ function buzz(whichTeam){
         currentlyGuessing = true;
         // establish which team is answering
         teamCurrentlyAnswering = whichTeam;
-        // give the text field focus
+        // give the text field focus and delete any extra chars from buzzing
         $("#answerTextfield")[0].disabled = false;
+		$("#answerTextfield")[0].value = "";
         $("#answerTextfield")[0].focus();
         // start counting down
         turnTimeLeft = turnTime + 1;

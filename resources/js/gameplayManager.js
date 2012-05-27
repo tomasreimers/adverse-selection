@@ -73,11 +73,12 @@ function startRound(){
     $("#questionText").html("");
 	if (currentQuestion[2] != 0){
 		image = "resources/img/supplements/" + currentQuestion[2] + ".jpg";
+		$("#supplementalImage").attr("src", image);
+		$("#questionSupplement").show()
 	}
 	else{
-		image = "resources/img/nograph.png";
+		$("#questionSupplement").hide()
 	}
-	$("#supplementalImage").attr("src", image);
     nextLetterTimeoutHandle = setTimeout("revealLetter()", questionSpeed);
 }
 function revealLetter(){

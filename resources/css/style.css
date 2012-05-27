@@ -70,6 +70,7 @@ html, body {
     margin-top:20px;
     background-color:#FFF;
     padding:10px;
+	height:200px;
     font-size:20px;
 }
 #question #questionSupplement{

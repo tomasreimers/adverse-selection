@@ -1,7 +1,7 @@
 var answers = new Array(); // stores answers
 
 function loadAnswers(callback){
-    $.ajax("resources/answers/answer.xml", {
+    $.ajax("resources/answers/answers.xml", {
         complete: finishLoadingAnswers
     });    
 }

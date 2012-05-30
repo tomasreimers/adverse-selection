@@ -1,8 +1,15 @@
 var answers = new Array(); // stores answers
 
 function loadAnswers(callback){
-    // TODO: Load XML Files here
-    answers = ["Keynes", "Laffer curve", "Demand curve shifts right", "Horizontal", "Demand curve shifts left"];
+    $.ajax("resources/answers/answer.xml", {
+        complete: finishLoadingAnswers
+    });    
+}
+
+function finishLoadingAnswers(JQXML, callback){
+    var XMLString = JQXML.responseText;
+    var JSONString = PlistParser.parse(XMLString);
+    answers = jQuery.parseJSON(JSONString);
     callback("answers");
 }
 

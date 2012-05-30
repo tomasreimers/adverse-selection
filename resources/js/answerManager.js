@@ -2,14 +2,15 @@ var answers = new Array(); // stores answers
 
 function loadAnswers(callback){
     $.ajax("resources/answers/answers.xml", {
-        complete: finishLoadingAnswers
+        complete: (function (JQXML, status){
+            finishLoadingAnswers(JQXML, callback);
+        })
     });    
 }
 
 function finishLoadingAnswers(JQXML, callback){
-    var XMLString = JQXML.responseText;
-    var JSONString = PlistParser.parse(XMLString);
-    answers = jQuery.parseJSON(JSONString);
+    var XMLDoc = JQXML.responseXML;
+    answers = PlistParser.parse(XMLDoc);
     callback("answers");
 }
 

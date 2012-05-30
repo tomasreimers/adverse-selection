@@ -1,10 +1,16 @@
 /******************* General ************************/
-html, body {
-    padding:5px;
+html{
     margin:0px;
-    background-color: #EEE;
     height:100%;
     overflow:hidden;
+    background-image:url(../img/wood.png);
+    padding:10px;
+}
+body {
+    margin:0px;
+    height:100%;
+    overflow:hidden;
+    background-color:#409671;
 }
 #header {
     background-color:#DDD;

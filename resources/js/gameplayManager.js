@@ -5,6 +5,7 @@
 // general variables
 var questionsLoaded = false;
 var answersLoaded = false;
+var soundLoaded = false;
 var team1Score = 0;
 var team2Score = 0;
 var currentRound = 1;
@@ -43,13 +44,17 @@ function beginGame(whatLoaded){
             onItemSelect: makeGuess
         });
     }
+	if (whatLoaded == 'sound'){
+		soundLoaded = true;
+	}
 	//if all loaded, start game
-    if (questionsLoaded && answersLoaded){
+    if (questionsLoaded && answersLoaded && soundLoaded){
         startRound();
     }
 }
 
 function awardPoint(whichTeam){
+	correctSound.play()
     if (whichTeam == 1){
         team1Score++;
     }
@@ -93,6 +98,7 @@ function startRound(){
 			$("#questionSupplement").hide()
 		}
 		nextLetterTimeoutHandle = setTimeout("revealLetter()", questionSpeed);
+		beginSound.play()
 	}
 }
 
@@ -128,6 +134,7 @@ function countdown(){
 }
 
 function outOfTime(){
+	wrongSound.play()
     // modify rounds text and disable text field
 	toggleRounds();
     $("#answerTextfield")[0].blur();
@@ -176,16 +183,17 @@ $(document).keydown(function(event){
 	//for buzz key presses
 	if (!currentlyGuessing){
 		code = event.keyCode;
+		// buzz for correct code and prevent key from being entered in text field
 		switch (code){
 			case 65: //a
+				event.preventDefault()
 				buzz(1);
 				break;
 			case 76: //l
+				event.preventDefault()
 				buzz(2)
 				break;
 		}
-		// prevent extra key press in text field
-		event.preventDefault()
 	}
 });
 
@@ -202,6 +210,7 @@ function buzz(whichTeam){
         // start counting down
         turnTimeLeft = turnTime + 1;
         countdown();
+		buzzSound.play()
     }
 }
 
@@ -227,4 +236,5 @@ $(document).ready(function (){
     initGameVariables();
     loadQuestions(beginGame);
     loadAnswers(beginGame);
+	soundManager.onready(initSound);
 });

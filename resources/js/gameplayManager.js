@@ -172,18 +172,20 @@ function newGame(){
 // ********* Interaction *******
 // *****************************
 
-$(document).keypress(function(event){
+$(document).keydown(function(event){
 	//for buzz key presses
 	if (!currentlyGuessing){
-		code = event.charCode;
+		code = event.keyCode;
 		switch (code){
-			case 97: //a
+			case 65: //a
 				buzz(1);
 				break;
-			case 108: //l
+			case 76: //l
 				buzz(2)
 				break;
 		}
+		// prevent extra key press in text field
+		event.preventDefault()
 	}
 });
 
@@ -194,9 +196,8 @@ function buzz(whichTeam){
         // update status
         currentlyGuessing = true;
         teamCurrentlyAnswering = whichTeam;
-        // give the text field focus and delete any extra chars from buzzing
+        // give the text field focus
         $("#answerTextfield")[0].disabled = false;
-		$("#answerTextfield")[0].value = "";
         $("#answerTextfield")[0].focus();
         // start counting down
         turnTimeLeft = turnTime + 1;

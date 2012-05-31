@@ -6,10 +6,9 @@
     <string>Quantity</string>
     <string>Marginal Cost (MC)</string>
     <string>Marginal Revenue (MR)</string>
-    <string>Demand</string>
     <string>Average Total Cost (ATC)</string>
-    <string>Supply</string>
-    <string>Demand</string>
+    <string>Supply (Curve)</string>
+    <string>Demand (Curve)</string>
     <string>Wage</string>
     <string>Monopoly</string>
     <string>Perfectly Competitive (PC) Market</string>

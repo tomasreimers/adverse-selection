@@ -2,10 +2,9 @@ Price
 Quantity
 Marginal Cost (MC)
 Marginal Revenue (MR)
-Demand
 Average Total Cost (ATC)
-Supply
-Demand
+Supply (Curve)
+Demand (Curve)
 Wage
 Monopoly
 Perfectly Competitive (PC) Market

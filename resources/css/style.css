@@ -1,24 +1,28 @@
 /******************* General ************************/
+@font-face {  
+  font-family: "chalk";  
+  src: url(../font/EraserRegular.ttf) format("truetype");  
+}  
 html{
     margin:0px;
     height:100%;
     overflow:hidden;
     background-image:url(../img/wood.png);
     padding:10px;
+    font-family:"chalk", "arial", sans-serif;
 }
 body {
     margin:0px;
     height:100%;
     overflow:hidden;
-    background-color:#409671;
+    background-color:#01190F;
+    padding:10px
 }
 #header {
-    background-color:#DDD;
     position:relative;
     margin-top:10px;
-    margin-bottom:10px;
-    padding:5px;
-    height:30px;
+    margin-bottom:100px;
+    font-size:0;
 }
 /******************* Home ************************/
 .customRadio, .customCheckbox {
@@ -32,44 +36,51 @@ body {
 /******************* Game ************************/
 #header #rounds {
     position:absolute;
-    top:-10px;
+    top:0;
     left:50%;
-    margin-left:-45px;
-    padding:5px;
-    width:80px;
-    height:50px;
-    background-color:#CCC;
+    margin-left:-75px;
+    width:140px;
+    height:75px;
     text-align:center;
-    font-size:24px;
+    font-size:36px;
+    color:#6C71C4;
+    vertical-align:middle;
 }
 #header #rounds #roundText{
-    font-size:12px;
+    font-size:16px;
     margin-bottom:5px;
 }
 #team1 {
     width:200px;
     height:30px;
-    font-size:24px;
+    font-size:36px;
     display:inline-block;
     position:absolute;
-    left:5px;
+    left:20px;
     text-align:left;
+    color: #268BD2;
+    vertical-align:middle;
+}
+#team1 .name, #team2 .name{
+    font-size:16px;
+    margin-bottom:5px;
 }
 #team2 {
     width:200px;
     height:30px;
-    font-size:24px;
+    font-size:36px;
     display:inline-block;
     position:absolute;
-    right:5px;
+    right:20px;
     text-align:right;
+    color:#DC322F;
+    vertical-align:middle;
 }
 #question {
     margin-top:20px;
-    background-color:#FFF;
     padding:10px;
 	height:200px;
-    font-size:20px;
+    font-size:36px;
 }
 #question #questionSupplement{
     border:2px dashed #CCC;
@@ -88,7 +99,6 @@ body {
 }
 #buzz1 {
     position: absolute;
-    background-color: #CCC;
     left:0px;
     bottom:100px;
     padding:10px;
@@ -97,7 +107,6 @@ body {
 }
 #buzz2 {
     position: absolute;
-    background-color: #CCC;
     right:0px;
     bottom:100px;
     padding:10px;
@@ -122,7 +131,6 @@ body {
     position:relative;
 }
 #answer, #winBox {
-    background-color:#CCC;
     position: absolute;
     top:0px;
     left:50%;
@@ -151,4 +159,15 @@ body {
     text-decoration:none;
     color:#FFF;
 	font-weight:bold;
+}
+
+/* Bottom */
+
+#holder{
+    background-image:url(../img/wood.png);
+    height:10px;
+    width:100%;
+    position:absolute;
+    bottom:0;
+    left:0;
 }

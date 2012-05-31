@@ -111,6 +111,7 @@ function startRound(){
 		currentlyGuessing = false;
 		teamAlreadyFailed = 0;
 		toggleRounds();
+        $("#buzz1 .buzzer, #buzz2 .buzzer").removeClass("inverted");
 		// set displayed question and supplemental image
 		$("#questionText").html("");
 		if (currentQuestion[2] != 0){
@@ -164,6 +165,7 @@ function outOfTime(){
     $("#answerTextfield")[0].blur();
     $("#answerTextfield")[0].value = "";
     $("#answerTextfield")[0].disabled = true;
+    $("#buzz1 .buzzer, #buzz2 .buzzer").removeClass("inverted");
     // see if other team has already lost, or if they need a shot
     if (teamAlreadyFailed == 0){
         teamAlreadyFailed = teamCurrentlyAnswering;
@@ -231,6 +233,9 @@ function buzz(whichTeam){
         // give the text field focus
         $("#answerTextfield")[0].disabled = false;
         $("#answerTextfield")[0].focus();
+        // show which team is guessing
+        var buzzerId = "#buzz" + whichTeam;
+        $(buzzerId + " .buzzer").addClass("inverted");
         // start counting down
         turnTimeLeft = turnTime + 1;
         countdown();

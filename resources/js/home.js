@@ -1,12 +1,31 @@
 // allowed game options
 var timeOptions = new Array(5, 10, 15, 20, 25, 30);
 var roundOptions = new Array(1, 5, 11, 15, 21, 25);
-var categoryOptions = new Array("Externalities", "Supply and Demand", "Data", "Nobel Prizes");
+var categoryOptions = new Array();
 
 // set game options
 var time = timeOptions[1];
 var rounds = roundOptions[4];
 var deselectedCategories = new Array();
+
+function setCategories(){
+	$.ajax("resources/questions/questions.xml", {
+        complete: (function (JQXML, status){
+            finishSettingCategories(JQXML);
+        })
+    });
+}
+
+function finishSettingCategories(JQXML){
+	var XMLDoc = JQXML.responseXML;
+	var questionSets = PlistParser.parse(XMLDoc);
+	// get question categories from array sets
+	for (var i = 0; i < questionSets.length; i ++){
+		categoryOptions.push(questionSets[i][0]);
+	}
+	// now ready to display categories and other buttons
+	createButtons();
+}
 
 function createButtons(){
 	// populate lists with buttons corresponding to game options
@@ -14,7 +33,7 @@ function createButtons(){
 		$("#timeSelectionBox ul").append("<li><a id='time" + timeOptions[i] + "' class='customRadio' href='#' onclick='setTime(" + timeOptions[i] + ")'>" + timeOptions[i] + " Seconds</a></li>");
 	}
 	for (i = 0; i < roundOptions.length; i ++){
-		$("#roundsSelectionBox ul").append("<li><a id='round" + roundOptions[i] + "' class='customRadio' href='#' onclick='setRounds(" + roundOptions[i] + ")'>" + roundOptions[i] + " Seconds</a></li>");
+		$("#roundsSelectionBox ul").append("<li><a id='round" + roundOptions[i] + "' class='customRadio' href='#' onclick='setRounds(" + roundOptions[i] + ")'>" + roundOptions[i] + " Rounds</a></li>");
 	}
 	for (i = 0; i < categoryOptions.length; i ++){
 		$("#categorySelectionBox ul").append("<li><a id='category" + i + "' class='customCheckbox checked' href='#' onclick='toggleCategories(" + i + ")'>" + categoryOptions[i] + " Seconds</a></li>");
@@ -85,5 +104,5 @@ function createGetString(){
 }
 
 $(document).ready(function (){
-	createButtons();
+	setCategories();
 });

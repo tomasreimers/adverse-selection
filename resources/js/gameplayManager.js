@@ -17,6 +17,7 @@ var turnTimeLeft = 0;
 var teamAlreadyFailed = 0; // 0: neither, 1: team 1, 2: team 2
 var teamCurrentlyAnswering;
 var currentlyGuessing = false;
+var disabledCategories = new Array();
 
 // handles
 var nextLetterTimeoutHandle;
@@ -24,7 +25,30 @@ var turnTimerTimeoutHandle;
 
 // load user variables with data
 function initGameVariables(){
-    // TODO: actually load variables
+    var getVariables = getUrlVars();
+	// check if all get variables exist
+	if ("r" in getVariables  && "t" in getVariables  && "c" in getVariables){
+		totalRounds = parseInt(getVariables["r"])
+		turnTime = parseInt(getVariables["t"])
+		// turn string of 0's and 1's into disabled categories array
+		categoriesString = getVariables["c"]
+		for (var i = 0; i < categoriesString.length; i ++){
+			if (categoriesString[i] == '0'){
+				disabledCategories.push(i);
+			}
+		}
+	}
+}
+
+function getUrlVars(){
+    var vars = [], hash;
+    var hashes = window.location.href.slice(window.location.href.indexOf('?') + 1).split('&');
+    for(var i = 0; i < hashes.length; i++){
+        hash = hashes[i].split('=');
+        vars.push(hash[0]);
+        vars[hash[0]] = hash[1];
+    }
+    return vars;
 }
 
 // *****************************

@@ -8,7 +8,7 @@ var answersLoaded = false;
 var soundLoaded = false;
 var team1Score = 0;
 var team2Score = 0;
-var currentRound = 1;
+var currentRound = 0;
 var totalRounds = 5;
 var questionSpeed = 100;
 var currentQuestion;
@@ -103,6 +103,7 @@ function startRound(){
 	}
 	// Not done, so continue on to next round
 	else{
+                  currentRound++;
 		// clear round variables and displays
 		$("#answerTextfield")[0].blur();
 		$("#answerTextfield")[0].value = "";

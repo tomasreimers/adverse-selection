@@ -21,18 +21,10 @@ body {
     height:30px;
 }
 /******************* Home ************************/
-#title {
-	text-align: center;
-	font-size: 100px;
+.customRadio, .customCheckbox {
+	background-color: #FFF;
 }
-#timeSelectionBox {
-	vertical-align: top;
-	display: inline-block;
-}
-#categorySelectionBox {
-	display: inline-block;
-	height: 50px;
-	width: 500px;
+.customRadio.selected, .customCheckbox.checked {
 	background-color: #F00;
 }
 /******************* Instructions ************************/

@@ -5,21 +5,24 @@
 		<link rel="shortcut icon" href="favicon.ico" type="image/vnd.microsoft.icon">
 		<link rel="stylesheet" href="resources/css/style.css" type="text/css">
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js" type="text/javascript"></script>
+		<script src="resources/js/home.js" type="text/javascript"></script>
 	</head>
 	<body>
-		<div id="title">Adverse Selection</div>
+		<h1>Adverse Selection</h1>
 		<div id="timeSelectionBox">
-			<select name="time">
-				<option value="5">5 seconds</option>
-				<option value="5">10 seconds</option>
-				<option value="5">15 seconds</option>
-				<option value="5">20 seconds</option>
-				<option value="5">25 seconds</option>
-				<option value="5">30 seconds</option>
-			</select>
+			<h2>Guessing Time</h2>
+			<ul></ul>
 		</div>
-		<div id="categorySelectionBox"></div>
+		<div id="roundsSelectionBox">
+			<h2>Number of Rounds</h2>
+			<ul></ul>
+		</div>
+		<div id="categorySelectionBox">
+			<h2>Category Selection</h2>
+			<ul></ul>
+		</div>
 		<a id="instructions" href="instructions.html">Instructions</a>
 		<a id="start" href="game.html">Start</a>
+		<a href="#" onclick='alert(createGetString())'>Show get string (temp)</a>
 	</body>
 </html>

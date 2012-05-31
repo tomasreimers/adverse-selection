@@ -9,7 +9,7 @@ var soundLoaded = false;
 var team1Score = 0;
 var team2Score = 0;
 var currentRound = 1;
-var totalRounds = 1;
+var totalRounds = 5;
 var questionSpeed = 100;
 var currentQuestion;
 var turnTime = 20;

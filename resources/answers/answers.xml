@@ -1,222 +1,220 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-    <array>
-        <string>Price</string>
-        <string>Quantity</string>
-        <string>Marginal Cost (MC)</string>
-        <string>Marginal Revenue (MR)</string>
-        <string>Demand Curve</string>
-        <string>Average Total Cost (ATC)</string>
-        <string>Supply</string>
-        <string>Demand</string>
-        <string>Wage</string>
-        <string>Monopoly</string>
-        <string>Perfectly Competitive (PC) Market</string>
-        <string>Monopolistically Competitive (MoCo)</string>
-        <string>Market</string>
-        <string>Firm</string>
-        <string>Average Variable Cost (AVC)</string>
-        <string>Average Fixed Cost (AFC)</string>
-        <string>Price Floor</string>
-        <string>Price Ceiling</string>
-        <string>Inelastic</string>
-        <string>Elastic</string>
-        <string>Production Possibilities Curve/Frontier (PPC/PPF)</string>
-        <string>Negative externality</string>
-        <string>Positive externality</string>
-        <string>Money Market</string>
-        <string>Interest Rate</string>
-        <string>Quantity of Money</string>
-        <string>Value of Dollar</string>
-        <string>Supply of Money</string>
-        <string>Demand for Money</string>
-        <string>Short Run Aggregate Supply (SRAS)</string>
-        <string>Long Run Aggregate Supply (LRAS)</string>
-        <string>Aggregate Demand (AD)</string>
-        <string>Price Level</string>
-        <string>Gross Domestic Product (GDP)</string>
-        <string>Inflation</string>
-        <string>Unemployment</string>
-        <string>Short Run Phillip's Curve</string>
-        <string>Long Run Phillip's Curve</string>
-        <string>Increase (If Curve, Shifts Right)</string>
-        <string>Decrease (If Curve, Shifts Left)</string>
-        <string>No Change</string>
-        <string>Absolute Advantage</string>
-        <string>Adverse Selection</string>
-        <string>Advertising</string>
-        <string>Animal Spirits</string>
-        <string>Assets</string>
-        <string>Barriers to Entry</string>
-        <string>Bonds</string>
-        <string>Boom Bust Cycle</string>
-        <string>Business Cycle</string>
-        <string>Excess Capacity</string>
-        <string>Capital</string>
-        <string>Capital Flight</string>
-        <string>Capitalism (Market Economy)</string>
-        <string>Command Economy</string>
-        <string>Catch Up Effect</string>
-        <string>Classical Economics</string>
-        <string>Coase Theorem</string>
-        <string>Public Goods</string>
-        <string>Private Goods</string>
-        <string>Common Goods / Common Resources</string>
-        <string>Public Goods</string>
-        <string>Rival</string>
-        <string>Non-rival</string>
-        <string>Excludable</string>
-        <string>Non-Excludable</string>
-        <string>Comparative Advantage</string>
-        <string>Collusion</string>
-        <string>Complementary Goods</string>
-        <string>Substitute Goods</string>
-        <string>Consumer Surplus</string>
-        <string>Produce Surplus</string>
-        <string>Total Surplus</string>
-        <string>Crowding Out</string>
-        <string>Current Account</string>
-        <string>Capital Account / Financial Account</string>
-        <string>Deadweight Loss (DWL)</string>
-        <string>Deficit</string>
-        <string>Depreciation</string>
-        <string>Appreciation</string>
-        <string>Diminishing Marginal Returns</string>
-        <string>Diminishing Marginal Utility</string>
-        <string>Discount Rate</string>
-        <string>Economies of Scale (Increasing Returns to Scale)</string>
-        <string>Diseconomies of Scale (Decreasing Returns to Scale)</string>
-        <string>Returns to Scale</string>
-        <string>Disinflation</string>
-        <string>Economics</string>
-        <string>Economy</string>
-        <string>Efficiency Wages</string>
-        <string>Elastic</string>
-        <string>Inelastic</string>
-        <string>Perfectly Elastic</string>
-        <string>Perfectly Inelastic</string>
-        <string>Unit Elastic</string>
-        <string>Land</string>
-        <string>Labor</string>
-        <string>Entrepreneurship</string>
-        <string>Equity</string>
-        <string>Efficiency</string>
-        <string>Exports</string>
-        <string>Imports</string>
-        <string>The Federal Reserve (The Fed)</string>
-        <string>Fixed Costs</string>
-        <string>Variable Costs</string>
-        <string>Fiscal Policy</string>
-        <string>Monetary Policy</string>
-        <string>Free Rider</string>
-        <string>Full Employment (Natural Level of Unemployment)</string>
-        <string>Game Theory</string>
-        <string>Giffen Good</string>
-        <string>GINI Coefficient</string>
-        <string>Gross National Product (GNP)</string>
-        <string>Human Capital</string>
-        <string>Income Effect</string>
-        <string>Substitution Effect</string>
-        <string>Inferior Good</string>
-        <string>Normal Good</string>
-        <string>Invisible Hand</string>
-        <string>Cyclical Unemployment</string>
-        <string>Frictional Unemployment</string>
-        <string>Structural Unemployment</string>
-        <string>Discouraged Workers</string>
-        <string>Labor Force</string>
-        <string>Consumption Consumption (C)</string>
-        <string>Investment Spending (I)</string>
-        <string>Saving</string>
-        <string>Net Exports (NX)</string>
-        <string>Net Capital Outflow</string>
-        <string>Net Capital Inflow</string>
-        <string>Government Spending (G)</string>
-        <string>Laffer Curve</string>
-        <string>Laissez-Faire</string>
-        <string>Equilibrium</string>
-        <string>Liquidity Trap</string>
-        <string>Long Run</string>
-        <string>Short Run</string>
-        <string>Macroeconomics</string>
-        <string>Microeconomics</string>
-        <string>Money Multiplier</string>
-        <string>Spending Multiplier</string>
-        <string>Nash Equilibrium</string>
-        <string>Normative Statements</string>
-        <string>Positive Statements</string>
-        <string>Oligopoly</string>
-        <string>Open-market operations</string>
-        <string>Buy Bonds</string>
-        <string>Sell Bonds</string>
-        <string>Perfectly Competitive (PC)</string>
-        <string>Price Discrimination</string>
-        <string>Utility</string>
-        <string>Purchasing Power Parity</string>
-        <string>Profit Maximizing Point</string>
-        <string>Revenue Maximizing Point</string>
-        <string>Fair Market Price</string>
-        <string>Socially Optimal Price</string>
-        <string>Lump Sum Subsidy</string>
-        <string>Per Unit Subsidy</string>
-        <string>Progressive Tax</string>
-        <string>Regressive Tax</string>
-        <string>Lump Sum Tax</string>
-        <string>Proportional Tax</string>
-        <string>Quota</string>
-        <string>Random Walk</string>
-        <string>Rational Expectations</string>
-        <string>Real</string>
-        <string>Nominal</string>
-        <string>Reserve Ratio</string>
-        <string>Scarcity</string>
-        <string>Monopsony</string>
-        <string>Stagflation</string>
-        <string>Sticky Prices and Sticky Wages</string>
-        <string>Sunk Costs</string>
-        <string>Tariff</string>
-        <string>Circular Flow</string>
-        <string>Transfer Payments</string>
-        <string>Velocity of Money</string>
-        <string>Wealth Effect</string>
-        <string>Windfall Gains</string>
-        <string>Ben Bernanke (The Ben Bernank)</string>
-        <string>John Maynard Keynes</string>
-        <string>Friedrich Hayek</string>
-        <string>Quantitative Easing</string>
-        <string>Opportunity Cost</string>
-        <string>Quantity Demanded</string>
-        <string>Quantity Supplied</string>
-        <string>Cross Price Elasticity of Demand</string>
-        <string>Trade Off</string>
-        <string>Dollar</string>
-        <string>Fiat Money</string>
-        <string>Commodity Money</string>
-        <string>Store of Value</string>
-        <string>Unit of Account</string>
-        <string>Internalize</string>
-        <string>Pigovian Tax</string>
-        <string>Tragedy of the Commons</string>
-        <string>Economic Profit</string>
-        <string>Accounting Profit</string>
-        <string>Normal Profit</string>
-        <string>Natural Monopoly</string>
-        <string>Cartel</string>
-        <string>Marginal Product</string>
-        <string>Marginal Revenue Product (MRP)</string>
-        <string>Marginal Factor Cost (MFC)</string>
-        <string>Consumer Price Index (CPI)</string>
-        <string>Producer Price Index (PPI)</string>
-        <string>Cost of Living Adjustment (COLA)</string>
-        <string>Private Saving</string>
-        <string>Public Saving</string>
-        <string>National Saving</string>
-        <string>Medium Of Exchange</string>
-        <string>M1</string>
-        <string>M2</string>
-        <string>Demand Deposits</string>
-        <string>Fractional Reserve Banking</string>
-        <string>Fisher Effect</string>
-    </array>
+<array>
+    <string>Price</string>
+    <string>Quantity</string>
+    <string>Marginal Cost (MC)</string>
+    <string>Marginal Revenue (MR)</string>
+    <string>Demand</string>
+    <string>Average Total Cost (ATC)</string>
+    <string>Supply</string>
+    <string>Demand</string>
+    <string>Wage</string>
+    <string>Monopoly</string>
+    <string>Perfectly Competitive (PC) Market</string>
+    <string>Monopolistically Competitive (MoCo)</string>
+    <string>Market</string>
+    <string>Firm</string>
+    <string>Average Variable Cost (AVC)</string>
+    <string>Average Fixed Cost (AFC)</string>
+    <string>Price Floor</string>
+    <string>Price Ceiling</string>
+    <string>Inelastic</string>
+    <string>Elastic</string>
+    <string>Production Possibilities Curve/Frontier (PPC/PPF)</string>
+    <string>Negative externality</string>
+    <string>Positive externality</string>
+    <string>Money Market</string>
+    <string>Interest Rate</string>
+    <string>Quantity of Money</string>
+    <string>Value of Dollar</string>
+    <string>Supply of Money</string>
+    <string>Demand for Money</string>
+    <string>Short Run Aggregate Supply (SRAS)</string>
+    <string>Long Run Aggregate Supply (LRAS)</string>
+    <string>Aggregate Demand (AD)</string>
+    <string>Price Level</string>
+    <string>Gross Domestic Product (GDP)</string>
+    <string>Inflation</string>
+    <string>Unemployment</string>
+    <string>Short Run Phillip's Curve</string>
+    <string>Long Run Phillip's Curve</string>
+    <string>Increase (If Curve, Shifts Right)</string>
+    <string>Decrease (If Curve, Shifts Left)</string>
+    <string>No Change</string>
+    <string>Absolute Advantage</string>
+    <string>Adverse Selection</string>
+    <string>Advertising</string>
+    <string>Animal Spirits</string>
+    <string>Assets</string>
+    <string>Barriers to Entry</string>
+    <string>Bonds</string>
+    <string>Boom Bust Cycle</string>
+    <string>Business Cycle</string>
+    <string>Excess Capacity</string>
+    <string>Capital</string>
+    <string>Capital Flight</string>
+    <string>Capitalism (Market Economy)</string>
+    <string>Command Economy</string>
+    <string>Catch Up Effect</string>
+    <string>Classical Economics</string>
+    <string>Coase Theorem</string>
+    <string>Public Goods</string>
+    <string>Private Goods</string>
+    <string>Common Goods / Common Resources</string>
+    <string>Public Goods</string>
+    <string>Rival</string>
+    <string>Non-rival</string>
+    <string>Excludable</string>
+    <string>Non-Excludable</string>
+    <string>Comparative Advantage</string>
+    <string>Collusion</string>
+    <string>Complementary Goods</string>
+    <string>Substitute Goods</string>
+    <string>Consumer Surplus</string>
+    <string>Produce Surplus</string>
+    <string>Total Surplus</string>
+    <string>Crowding Out</string>
+    <string>Current Account</string>
+    <string>Capital Account / Financial Account</string>
+    <string>Deadweight Loss (DWL)</string>
+    <string>Deficit</string>
+    <string>Depreciation</string>
+    <string>Appreciation</string>
+    <string>Diminishing Marginal Returns</string>
+    <string>Diminishing Marginal Utility</string>
+    <string>Discount Rate</string>
+    <string>Economies of Scale (Increasing Returns to Scale)</string>
+    <string>Diseconomies of Scale (Decreasing Returns to Scale)</string>
+    <string>Returns to Scale</string>
+    <string>Disinflation</string>
+    <string>Economics</string>
+    <string>Economy</string>
+    <string>Efficiency Wages</string>
+    <string>Perfectly Elastic</string>
+    <string>Perfectly Inelastic</string>
+    <string>Unit Elastic</string>
+    <string>Land</string>
+    <string>Labor</string>
+    <string>Entrepreneurship</string>
+    <string>Equity</string>
+    <string>Efficiency</string>
+    <string>Exports</string>
+    <string>Imports</string>
+    <string>The Federal Reserve (The Fed)</string>
+    <string>Fixed Costs</string>
+    <string>Variable Costs</string>
+    <string>Fiscal Policy</string>
+    <string>Monetary Policy</string>
+    <string>Free Rider</string>
+    <string>Full Employment (Natural Level of Unemployment)</string>
+    <string>Game Theory</string>
+    <string>Giffen Good</string>
+    <string>GINI Coefficient</string>
+    <string>Gross National Product (GNP)</string>
+    <string>Human Capital</string>
+    <string>Income Effect</string>
+    <string>Substitution Effect</string>
+    <string>Inferior Good</string>
+    <string>Normal Good</string>
+    <string>Invisible Hand</string>
+    <string>Cyclical Unemployment</string>
+    <string>Frictional Unemployment</string>
+    <string>Structural Unemployment</string>
+    <string>Discouraged Workers</string>
+    <string>Labor Force</string>
+    <string>Consumption Consumption (C)</string>
+    <string>Investment Spending (I)</string>
+    <string>Saving</string>
+    <string>Net Exports (NX)</string>
+    <string>Net Capital Outflow</string>
+    <string>Net Capital Inflow</string>
+    <string>Government Spending (G)</string>
+    <string>Laffer Curve</string>
+    <string>Laissez-Faire</string>
+    <string>Equilibrium</string>
+    <string>Liquidity Trap</string>
+    <string>Long Run</string>
+    <string>Short Run</string>
+    <string>Macroeconomics</string>
+    <string>Microeconomics</string>
+    <string>Money Multiplier</string>
+    <string>Spending Multiplier</string>
+    <string>Nash Equilibrium</string>
+    <string>Normative Statements</string>
+    <string>Positive Statements</string>
+    <string>Oligopoly</string>
+    <string>Open-market operations</string>
+    <string>Buy Bonds</string>
+    <string>Sell Bonds</string>
+    <string>Perfectly Competitive (PC)</string>
+    <string>Price Discrimination</string>
+    <string>Utility</string>
+    <string>Purchasing Power Parity</string>
+    <string>Profit Maximizing Point</string>
+    <string>Revenue Maximizing Point</string>
+    <string>Fair Market Price</string>
+    <string>Socially Optimal Price</string>
+    <string>Lump Sum Subsidy</string>
+    <string>Per Unit Subsidy</string>
+    <string>Progressive Tax</string>
+    <string>Regressive Tax</string>
+    <string>Lump Sum Tax</string>
+    <string>Proportional Tax</string>
+    <string>Quota</string>
+    <string>Random Walk</string>
+    <string>Rational Expectations</string>
+    <string>Real</string>
+    <string>Nominal</string>
+    <string>Reserve Ratio</string>
+    <string>Scarcity</string>
+    <string>Monopsony</string>
+    <string>Stagflation</string>
+    <string>Sticky Prices and Sticky Wages</string>
+    <string>Sunk Costs</string>
+    <string>Tariff</string>
+    <string>Circular Flow</string>
+    <string>Transfer Payments</string>
+    <string>Velocity of Money</string>
+    <string>Wealth Effect</string>
+    <string>Windfall Gains</string>
+    <string>Ben Bernanke (The Ben Bernank)</string>
+    <string>John Maynard Keynes</string>
+    <string>Friedrich Hayek</string>
+    <string>Quantitative Easing</string>
+    <string>Opportunity Cost</string>
+    <string>Quantity Demanded</string>
+    <string>Quantity Supplied</string>
+    <string>Cross Price Elasticity of Demand</string>
+    <string>Trade Off</string>
+    <string>Dollar</string>
+    <string>Fiat Money</string>
+    <string>Commodity Money</string>
+    <string>Store of Value</string>
+    <string>Unit of Account</string>
+    <string>Internalize</string>
+    <string>Pigovian Tax</string>
+    <string>Tragedy of the Commons</string>
+    <string>Economic Profit</string>
+    <string>Accounting Profit</string>
+    <string>Normal Profit</string>
+    <string>Natural Monopoly</string>
+    <string>Cartel</string>
+    <string>Marginal Product</string>
+    <string>Marginal Revenue Product (MRP)</string>
+    <string>Marginal Factor Cost (MFC)</string>
+    <string>Consumer Price Index (CPI)</string>
+    <string>Producer Price Index (PPI)</string>
+    <string>Cost of Living Adjustment (COLA)</string>
+    <string>Private Saving</string>
+    <string>Public Saving</string>
+    <string>National Saving</string>
+    <string>Medium Of Exchange</string>
+    <string>M1</string>
+    <string>M2</string>
+    <string>Demand Deposits</string>
+    <string>Fractional Reserve Banking</string>
+    <string>Fisher Effect</string>
+</array>
 </plist>

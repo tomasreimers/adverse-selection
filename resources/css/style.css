@@ -178,6 +178,7 @@ body {
 #winBox {
 	display:none;
 	text-align:center;
+    color:#B58900;
 }
 #winner {
 	width:400px;
@@ -186,11 +187,10 @@ body {
 #newGame {
 	padding:10px;
 	margin-top: 10px;
-    background-color:#F00;
-    border:1px solid #D00;
+    background-color:#B58900;
     display:inline-block;
     text-decoration:none;
-    color:#FFF;
+    color:#01190F;
 	font-weight:bold;
 }
 

@@ -81,12 +81,21 @@ body {
     padding:10px;
 	height:200px;
     font-size:36px;
+    color:#FFF;
+    position:relative;
 }
 #question #questionSupplement{
-    border:2px dashed #CCC;
     width:200px;
     height:200px;
     float:right;
+    background-image:url(../img/graphback.png);
+    padding:20px;
+    position: absolute;
+    top:0;
+    right:0;
+}
+#questionText{
+    margin-right:250px;
 }
 #supplementalImage{
 	width: 200px;
@@ -99,28 +108,45 @@ body {
 }
 #buzz1 {
     position: absolute;
-    left:0px;
-    bottom:100px;
+    left:10px;
+    bottom:10px;
     padding:10px;
     text-align:center;
     font-size:20px;
 }
 #buzz2 {
     position: absolute;
-    right:0px;
-    bottom:100px;
+    right:10px;
+    bottom:10px;
     padding:10px;
     text-align:center;
     font-size:20px;
 }
 .buzzer {
-    padding:30px;
-    background-color:#F00;
-    border:1px solid #D00;
+    padding:60px 30px;
+    border:2px dashed #FFF;
     display:inline-block;
     text-decoration:none;
     color:#FFF;
 	font-weight:bold;
+}
+#buzz1 .buzzer{
+    color: #268BD2;
+    border-color: #268BD2;
+}
+#buzz2 .buzzer{
+    color: #DC3024;
+    border-color: #DC3024;
+}
+#buzz1 .buzzer.inverted{
+    background-color: #268BD2;
+    color: #01190F;
+    border-color: transparent;
+}
+#buzz2 .buzzer.inverted{
+    background-color: #268BD2;
+    color: #01190F;
+    border-color: transparent;
 }
 .keyForBuzzer {
     margin-top:5px;
@@ -141,6 +167,13 @@ body {
     margin-bottom:10px;
     padding:5px;
     width:400px;
+    border:none;
+    border-bottom:2px dotted #B58900;
+    background-color:transparent;
+    padding:5px;
+    font-family:"chalk", "arial", sans-serif;
+    color:#B58900;
+    font-size:16px;
 }
 #winBox {
 	display:none;

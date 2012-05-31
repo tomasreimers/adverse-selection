@@ -1,8 +1,12 @@
 /******************* General ************************/
 @font-face {  
   font-family: chalkboard;  
-  src: url(../font/EraserRegular.eot);  
-  src: url(../font/EraserRegular.ttf) format("truetype");  
+  src: url('../font/EraserRegular.eot');  
+  src: url('../font/EraserRegular.eot?#iefix') format('embedded-opentype'), 
+       url('../font/EraserRegular.ttf') format("truetype");
+  font-weight:400;
+  font-weight: normal;
+  font-style: normal;   
 }  
 html{
     margin:0px;

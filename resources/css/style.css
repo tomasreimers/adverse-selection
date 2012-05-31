@@ -14,7 +14,7 @@ html{
     overflow:hidden;
     background-image:url(../img/wood.png);
     padding:10px;
-    font-family:'chalkboard', 'arial', sans-serif;
+    font-family:chalkboard, 'arial', sans-serif;
 }
 body {
     margin:0px;

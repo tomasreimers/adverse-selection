@@ -1,6 +1,6 @@
 /******************* General ************************/
 @font-face {  
-  font-family: chalkboard;  
+  font-family: 'chalkboard';  
   src: url('../font/EraserRegular.eot');  
   src: url('../font/EraserRegular.eot?#iefix') format('embedded-opentype'), 
        url('../font/EraserRegular.ttf') format("truetype");
@@ -14,7 +14,7 @@ html{
     overflow:hidden;
     background-image:url(../img/wood.png);
     padding:10px;
-    font-family:chalkboard, arial, sans-serif;
+    font-family:'chalkboard', 'arial', sans-serif;
 }
 body {
     margin:0px;

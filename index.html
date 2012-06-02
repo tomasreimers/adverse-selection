@@ -4,26 +4,31 @@
 	    <meta charset="UTF-8">
 		<link rel="shortcut icon" href="favicon.ico" type="image/vnd.microsoft.icon">
 		<link rel="stylesheet" href="resources/css/style.css" type="text/css">
+		<script src="resources/js/indexOf.js" type="text/javascript"></script>
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js" type="text/javascript"></script>
 		<script src="resources/js/plistParser.js" type="text/javascript"></script>
 		<script src="resources/js/home.js" type="text/javascript"></script>
 	</head>
 	<body>
 		<h1>Adverse Selection</h1>
-		<div id="timeSelectionBox">
-			<h2>Guessing Time</h2>
-			<ul></ul>
+		<div id="leftHalf">
+			<div id="categorySelectionBox">
+				<h2>Category Selection (Tap to Toggle)</h2>
+				<ul></ul>
+			</div>
 		</div>
-		<div id="roundsSelectionBox">
-			<h2>Number of Rounds</h2>
-			<ul></ul>
+		<div id="rightHalf">
+			<div id="timeSelectionBox">
+				<h2>Guessing Time (Seconds)</h2>
+				<ul class="compact"></ul>
+			</div>
+			<div id="roundsSelectionBox">
+				<h2>Number of Rounds</h2>
+				<ul class="compact"></ul>
+			</div>
 		</div>
-		<div id="categorySelectionBox">
-			<h2>Category Selection</h2>
-			<ul></ul>
-		</div>
-		<a id="instructions" href="instructions.html">Instructions</a>
-		<a id="start" href="game.html">Start</a>
-		<a href="#" onclick='alert(createGetString())'>Show get string (temp)</a>
+		<div class="glue"></div>
+		<div class="center-text"><a id="start" href="game.html">Start</a></div>
+		<div id="holder"></div>
 	</body>
 </html>

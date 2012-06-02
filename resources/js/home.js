@@ -4,7 +4,7 @@ var roundOptions = new Array(1, 5, 11, 15, 21, 25);
 var categoryOptions = new Array();
 
 // set game options
-var time = timeOptions[1];
+var time = timeOptions[3];
 var rounds = roundOptions[4];
 var deselectedCategories = new Array();
 
@@ -30,13 +30,13 @@ function finishSettingCategories(JQXML){
 function createButtons(){
 	// populate lists with buttons corresponding to game options
 	for (i = 0; i < timeOptions.length; i ++){
-		$("#timeSelectionBox ul").append("<li><a id='time" + timeOptions[i] + "' class='customRadio' href='#' onclick='setTime(" + timeOptions[i] + ")'>" + timeOptions[i] + " Seconds</a></li>");
+		$("#timeSelectionBox ul").append("<li><a id='time" + timeOptions[i] + "' class='customRadio' href='#' onclick='setTime(" + timeOptions[i] + ")'>" + timeOptions[i] + "</a></li>");
 	}
 	for (i = 0; i < roundOptions.length; i ++){
-		$("#roundsSelectionBox ul").append("<li><a id='round" + roundOptions[i] + "' class='customRadio' href='#' onclick='setRounds(" + roundOptions[i] + ")'>" + roundOptions[i] + " Rounds</a></li>");
+		$("#roundsSelectionBox ul").append("<li><a id='round" + roundOptions[i] + "' class='customRadio' href='#' onclick='setRounds(" + roundOptions[i] + ")'>" + roundOptions[i] + "</a></li>");
 	}
 	for (i = 0; i < categoryOptions.length; i ++){
-		$("#categorySelectionBox ul").append("<li><a id='category" + i + "' class='customCheckbox checked' href='#' onclick='toggleCategories(" + i + ")'>" + categoryOptions[i] + " Seconds</a></li>");
+		$("#categorySelectionBox ul").append("<li><a id='category" + i + "' class='customCheckbox checked' href='#' onclick='toggleCategories(" + i + ")'>" + categoryOptions[i] + "</a></li>");
 	}
 	// select the default radio buttons
 	selectRadio("time" + time);

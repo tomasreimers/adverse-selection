@@ -55,7 +55,7 @@ h2 {
 	text-align: center;
 	padding-right: 50px;
 	margin-left: -50px;
-    border-left:2px solid #FFF;
+    border-left:2px dashed #FFF;
 }
 #categorySelectionBox ul li {
 	margin-left: -40px;

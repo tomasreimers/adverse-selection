@@ -173,9 +173,109 @@
 		</array>
 		<array>
 			<string>Consumer Choice (micro)</string>
+			<array>
+				<string>0</string>
+				<string>Calculate the value of marginal utility when utility is maximized.</string>
+				<string>0</string>
+			</array>
+			<array>
+				<string>6</string>
+				<string>Joshua loves chips($2) and cookies($3), if his utility is maximized and his last cookie provided him with 4 utils, how many utils did his last cookie provide?</string>
+				<string>0</string>
+			</array>
+			<array>
+				<string>a222</string>
+				<string>If Bryan's marginal utility never decreases, what is his demand curve like</string>
+				<string>0</string>
+			</array>
+			<array>
+				<string>a111</string>
+				<string>A (normal) good's price increases and makes the buyers feel poorer causing them to purchase less of it, this effect is called:</string>
+				<string>0</string>
+			</array>
+			<array>
+				<string>a112</string>
+				<string>A (normal) good's price increases and makes buyers buy more substitutes, this effect is called:</string>
+				<string>0</string>
+			</array>
+			<array>
+				<string>a80</string>
+				<string>Each slice of pizza provides Joshua with less and less satisfaction, this is called:</string>
+				<string>0</string>
+			</array>
+			<array>
+				<string>1</string>
+				<string>Let a be the marginal utility per dollar of good a, and b be the mu/$ of good b. If total utility is maximized, a/b is:</string>
+				<string>0</string>
+			</array>
 		</array>
 		<array>
 			<string>Costs of production (micro)</string>
+			<array>
+				<string>a100</string>
+				<string>In the long run there are no:</string>
+				<string>0</string>
+			</array>
+			<array>
+				<string>a4</string>
+				<string>The average cost for producing a product:</string>
+				<string>0</string>
+			</array>
+			<array>
+				<string>6</string>
+				<string>(In dollars, i.e. "3") the marginal cost for the 4 unit is:</string>
+				<string>3</string>
+			</array>
+			<array>
+				<string>16</string>
+				<string>(In dollars, i.e. "3") ATC for producing 6 units:</string>
+				<string>3</string>
+			</array>
+			<array>
+				<string>24</string>
+				<string>(In dollars, i.e. "3") Fixed Costs:</string>
+				<string>3</string>
+			</array>
+			<array>
+				<string>1</string>
+				<string>(In dollars, i.e. "3") Unit afterwhich diminishing marginal returns are experianced:</string>
+				<string>3</string>
+			</array>
+			<array>
+				<string>12</string>
+				<string>(In dollars, i.e. "3") AFC for producing two units:</string>
+				<string>3</string>
+			</array>
+			<array>
+				<string>a14</string>
+				<string>What must go down as more units are produced:</string>
+				<string>0</string>
+			</array>
+			<array>
+				<string>a39</string>
+				<string>What change will an increase in the rent of the factory have on ATC in the short run?</string>
+				<string>0</string>
+			</array>
+			<array>
+				<string>a37</string>
+				<string>What change will an increase in the rent of the factory have on ATC in the long run?</string>
+				<string>0</string>
+			</array>
+			<array>
+				<string>a2</string>
+				<string>Change in total cost divided by change in quanity equals</string>
+				<string>0</string>
+			</array>
+			<array>
+				<string>a82</string>
+				<string>When Joshua doubles all inputs and output more than doubles he is experiancing:</string>
+				<string>0</string>
+			</array>
+			<array>
+				<string>a83</string>
+				<string>When Bryan halves all inputs and output more than halves he is experiancing:</string>
+				<string>0</string>
+			</array>
 		</array>
 		<array>
 			<string>PC and Monopolies (micro)</string>
@@ -185,6 +285,9 @@
 		</array>
 		<array>
 			<string>Markets for Factors of Production (micro)</string>
+		</array>
+		<array>
+			<string>Externalities (micro)</string>
 		</array>
 		<array>
 			<string>Intro, GDP, CPI, Unemployment, Inflation (macro)</string>
@@ -230,7 +333,7 @@
 			</array>
 			<array>
 				<string>a219</string>
-				<string>At what point is this economy producing at an allocatively inefficient level? (Point _)</string>
+				<string>At what point is this economy producing at an allocatively inefficient level? ("Point _")</string>
 				<string>2</string>
 			</array>
 			<array>

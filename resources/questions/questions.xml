@@ -132,12 +132,42 @@
 			</array>
 			<array>
 				<string>a38</string>
-				<string>Econ Textbooks Inc has an economic consultant come in. If the consultant determiens the books are elastic goods, he will advise the comapny to do what to their price?</string>
+				<string>Econ Textbooks Inc has an economic consultant come in. If the consultant determiens the books are elastic goods, he will advise the comapny to do what to their price to increase profit?</string>
+				<string>0</string>
+			</array>
+			<array>
+				<string>a214</string>
+				<string>A binding price floor is imposed on a good, their is now a ___ of the good.</string>
+				<string>0</string>
+			</array>
+			<array>
+				<string>a39</string>
+				<string>A price ceiling is imposed above the equilibrium price, how is the quanity affected?</string>
+				<string>0</string>
+			</array>
+			<array>
+				<string>a90</string>
+				<string>A producer raises their prices by exactly $6.14 and finds that they still sell the exact same amount. The good is considered to be ___.</string>
 				<string>0</string>
 			</array>
 			<array>
 				<string>a38</string>
-				<string>A binding price floor is imposed, their is now a </string>
+				<string>If the producer of an elastic good raises their prices, what will happen to their total revenue?</string>
+				<string>0</string>
+			</array>
+			<array>
+				<string>a16</string>
+				<string>If the government says that a certain company may not sell above a certain level, the government has imposed a what?</string>
+				<string>0</string>
+			</array>
+			<array>
+				<string>a67</string>
+				<string>If the cross price elasticity of demand is negative, the goods are what type of goods?</string>
+				<string>0</string>
+			</array>
+			<array>
+				<string>4</string>
+				<string>Calculate the coeffeciant of price elasticity if a 4% increase in price causes a 16% increase in quantity demanded.</string>
 				<string>0</string>
 			</array>
 		</array>

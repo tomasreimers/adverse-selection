@@ -102,6 +102,17 @@ function startRound(){
 	else if (team2Score == neededScore){
 		endGame(2);
 	}
+	if (currentRound >= totalRounds){
+		if (team1Score > team2Score){
+			endGame(1);
+		}
+		else if (team2Score > team1Score){
+			endGame(2);
+		}
+		else{
+			endGame(false);
+		}
+	}
 	// Not done, so continue on to next round
 	else{
         currentRound++;
@@ -210,10 +221,17 @@ function toggleRounds(){
 function endGame(winningTeam){
 	// Remove text field
 	$("#answerTextfield")[0].blur();
+	$("#numberAnswerTextfield")[0].blur();
 	$("#answer").hide();
-	// Show winner
+	// Show win screen
 	$("#winBox").show();
-	$("#winner").html("Team " + winningTeam + " wins!");
+	//check for tie
+	if (!winningTeam){
+		$("#winner").html("It's a tie!");
+	}
+	else{
+		$("#winner").html("Team " + winningTeam + " wins!");
+	}
 }
 
 function newGame(){

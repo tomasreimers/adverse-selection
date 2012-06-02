@@ -87,8 +87,6 @@ ul.compact li {
     text-decoration:none;
     border:2px solid #FFF;
 }
-/******************* Instructions ************************/
-
 /******************* Game ************************/
 #header #rounds {
     position:absolute;
@@ -219,7 +217,7 @@ ul.compact li {
     padding:10px;
     margin-left:-200px;
 }
-#answerTextfield {
+#answerTextfield, #numberAnswerTextfield {
     margin-bottom:10px;
     padding:5px;
     width:400px;
@@ -230,6 +228,9 @@ ul.compact li {
     font-family:'myChalkboard', 'arial', sans-serif;
     color:#B58900;
     font-size:16px;
+}
+#numberAnswerTextfield {
+	display: none;
 }
 #winBox {
 	display:none;

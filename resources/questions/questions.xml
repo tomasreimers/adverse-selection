@@ -52,6 +52,71 @@
 		</array>
 		<array>
 			<string>Supply and Demand (micro)</string>
+			<array>
+				<string>a38</string>
+				<string>An improvement in production technology causes what to happen to the price?</string>
+				<string>0</string>
+			</array>
+			<array>
+				<string>a37</string>
+				<string>If the amount of buyers increases, what happens to quantity produced?</string>
+				<string>0</string>
+			</array>
+			<array>
+				<string>a39</string>
+				<string>If the amount of suppliers in a market increases, what happens to demand?</string>
+				<string>0</string>
+			</array>
+			<array>
+				<string>a67</string>
+				<string>Joshua always buys bagels and tubs of cream cheese together, to Joshua bagels and cream cheese are what type of goods?</string>
+				<string>0</string>
+			</array>
+			<array>
+				<string>a68</string>
+				<string>Bryan enjoys coffee and orange juice, however he always has one or the other, to Bryan coffee and orange juice are what type of goods?</string>
+				<string>0</string>
+			</array>
+			<array>
+				<string>a114</string>
+				<string>Bryan starts winning more economics competitions and makes more money; with that money he buys more suits. To Bryan suits are what type of good?</string>
+				<string>0</string>
+			</array>
+			<array>
+				<string>a114</string>
+				<string>Joshua takes a sabbatical in Fiji and his income goes down, because of this he buys less video games. To Joshua video games are what type of good?</string>
+				<string>0</string>
+			</array>
+			<array>
+				<string>a113</string>
+				<string>Joshua takes a sabbatical in Fiji and his income goes down, because of this he buys more flip-flops. To Joshua flip-flops are what type of good?</string>
+				<string>0</string>
+			</array>
+			<array>
+				<string>a38</string>
+				<string>As the price of peanut butter increases, what happens to the price of jelly, a complementary good?</string>
+				<string>0</string>
+			</array>
+			<array>
+				<string>a38</string>
+				<string>As the demand for pens decreases, what happens to the price of paper, a complementary good?</string>
+				<string>0</string>
+			</array>
+			<array>
+				<string>a37</string>
+				<string>As Joshua treats hamburgers and hotdogs as substitute goods. What will happen to the quantity of hot dogs he demands when the price of hamburgers increases?</string>
+				<string>0</string>
+			</array>
+			<array>
+				<string>a37</string>
+				<string>According to the law of demand, quanity decreases if price does what?</string>
+				<string>0</string>
+			</array>
+			<array>
+				<string>a5</string>
+				<string>If the government subsidizes the production of computers, which curve will increase in the computer market</string>
+				<string>0</string>
+			</array>
 		</array>
 		<array>
 			<string>Elasticity, Price Controls, Taxes, Consumer Surplus (micro)</string>

@@ -3,38 +3,91 @@
 <plist version="1.0">
     <array>
 		<array>
-			<string>Intro to Basic Concepts</string>
+			<string>Intro to Basic Concepts (micro)</string>
 			<array>
-				<string>a180</string>
-				<string>What is the difference between economic and accounting profit?</string>
-				<string>0</string>
-			</array>
-		</array>
-		<array>
-			<string>Supply and Demand</string>
-			<array>
-				<string>a6</string>
-				<string>What represents the relationship between price and the quantity of a good a consumer is willing to purchase?</string>
+				<string>a19</string>
+				<string>A certain economy can only produce corn and computers. The graph that shows how many computers they can produce for their choosen level of corn production is called:</string>
 				<string>0</string>
 			</array>
 			<array>
-				<string>a128</string>
-				<string>What curve is this?</string>
-				<string>1</string>
-			</array>
-			<array>
-				<string>a176</string>
-				<string>Who is leader of the Federal Reserve?</string>
+				<string>a165</string>
+				<string>What is the main contraint in the allocation of resources?</string>
 				<string>0</string>
 			</array>
-		</array>
-		<array>
-			<string>Elasticity, Price Controls, Taxes, Consumer Surplus</string>
 			<array>
 				<string>2</string>
-				<string>If the percent change of quantity demanded of a good is 4 and the percent change in price is 2, what is its price elasticity?</string>
+				<string>If country a can produce 2 mango or 4 bananas, what is the opportunity cost (in bananas) to produce 1 mango?</string>
 				<string>0</string>
 			</array>
+			<array>
+				<string>a180</string>
+				<string>When Bryan goes to a concert, he gives up $100 in wages, $19 dollars for a ticket, and another $19 to bring Joshua. These costs are called his:</string>
+				<string>0</string>
+			</array>
+			<array>
+				<string>a184</string>
+				<string>When people must decide between two things they are making a:</string>
+				<string>0</string>
+			</array>
+			<array>
+				<string>a65</string>
+				<string>Joshua can write 6 multiple choice or 2 open response, while Bryan can write 8 multiple choice or 4 open response. What advantage does Joshua have in writing multiple choice?</string>
+				<string>0</string>
+			</array>
+			<array>
+				<string>a40</string>
+				<string>Joshua can write 6 multiple choice or 2 open response, while Bryan can write 8 multiple choice or 4 open response. What advantage does Bryan have in writing multiple choice?</string>
+				<string>0</string>
+			</array>
+			<array>
+				<string>a139</string>
+				<string>"The government should provide free healthcare," what type of statement is that?</string>
+				<string>0</string>
+			</array>
+			<array>
+				<string>a140</string>
+				<string>"The government doesn't provide free hover-cars," what type of statement is that?</string>
+				<string>0</string>
+			</array>
+		</array>
+		<array>
+			<string>Supply and Demand (micro)</string>
+		</array>
+		<array>
+			<string>Elasticity, Price Controls, Taxes, Consumer Surplus (micro)</string>
+		</array>
+		<array>
+			<string>Consumer Choice (micro)</string>
+		</array>
+		<array>
+			<string>Costs of production (micro)</string>
+		</array>
+		<array>
+			<string>PC and Monopolies (micro)</string>
+		</array>
+		<array>
+			<string>Oligopolies and Monopolistic Competition (micro)</string>
+		</array>
+		<array>
+			<string>Markets for Factors of Production (micro)</string>
+		</array>
+		<array>
+			<string>Intro, GDP, Unemployment, Inflation (macro)</string>
+		</array>
+		<array>
+			<string>AD, AS, LRAS, and Econ Growth (macro)</string>
+		</array>
+		<array>
+			<string>Financial Sector: Money, Banking, and the Fed (macro)</string>
+		</array>
+		<array>
+			<string>Monetary and Fiscal Policy (macro)</string>
+		</array>
+		<array>
+			<string>Phillips curve, loanable funds, and Exchange Rate (macro)</string>
+		</array>
+		<array>
+			<string>Crimson Vocubulary (extra)</string>
 		</array>
 	</array>
 </plist>

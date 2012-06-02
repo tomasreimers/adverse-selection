@@ -5,7 +5,7 @@
 		<array>
 			<string>Intro to Basic Concepts</string>
 			<array>
-				<string>180</string>
+				<string>a180</string>
 				<string>What is the difference between economic and accounting profit?</string>
 				<string>0</string>
 			</array>
@@ -13,17 +13,17 @@
 		<array>
 			<string>Supply and Demand</string>
 			<array>
-				<string>6</string>
+				<string>a6</string>
 				<string>What represents the relationship between price and the quantity of a good a consumer is willing to purchase?</string>
 				<string>0</string>
 			</array>
 			<array>
-				<string>128</string>
+				<string>a128</string>
 				<string>What curve is this?</string>
 				<string>1</string>
 			</array>
 			<array>
-				<string>176</string>
+				<string>a176</string>
 				<string>Who is leader of the Federal Reserve?</string>
 				<string>0</string>
 			</array>
@@ -31,8 +31,8 @@
 		<array>
 			<string>Elasticity, Price Controls, Taxes, Consumer Surplus</string>
 			<array>
-				<string>17</string>
-				<string>If the price elasticity of a good is 0.5, is it elastic, inelastic, or unit elastic?</string>
+				<string>2</string>
+				<string>If the percent change of quantity demanded of a good is 4 and the percent change in price is 2, what is its price elasticity?</string>
 				<string>0</string>
 			</array>
 		</array>

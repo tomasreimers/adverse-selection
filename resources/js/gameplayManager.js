@@ -18,6 +18,7 @@ var teamAlreadyFailed = 0; // 0: neither, 1: team 1, 2: team 2
 var teamCurrentlyAnswering;
 var currentlyGuessing = false;
 var disabledCategories = new Array();
+var currentlyNumberQuestion = false;
 
 // handles
 var nextLetterTimeoutHandle;
@@ -103,16 +104,26 @@ function startRound(){
 	}
 	// Not done, so continue on to next round
 	else{
-                  currentRound++;
+        currentRound++;
 		// clear round variables and displays
 		$("#answerTextfield")[0].blur();
 		$("#answerTextfield")[0].value = "";
 		$("#answerTextfield")[0].disabled = true;
-		currentQuestion = getNextQuestion();
+		$("#numberAnswerTextfield")[0].blur();
+		$("#numberAnswerTextfield")[0].value = "";
+		$("#numberAnswerTextfield")[0].disabled = true;
 		currentlyGuessing = false;
 		teamAlreadyFailed = 0;
 		toggleRounds();
         $("#buzz1 .buzzer, #buzz2 .buzzer").removeClass("inverted");
+		// check whether current question is an answer or number question
+		currentQuestion = getNextQuestion();
+		if (currentQuestion[0][0] == 'a'){
+			currentlyNumberQuestion = false;
+		}
+		else{
+			currentlyNumberQuestion = true;
+		}
 		// set displayed question and supplemental image
 		$("#questionText").html("");
 		if (currentQuestion[2] != 0){
@@ -161,11 +172,18 @@ function countdown(){
 
 function outOfTime(){
 	wrongSound.play()
-    // modify rounds text and disable text field
+    // modify rounds text and disable correct text field
 	toggleRounds();
-    $("#answerTextfield")[0].blur();
-    $("#answerTextfield")[0].value = "";
-    $("#answerTextfield")[0].disabled = true;
+	if (currentlyNumberQuestion){
+		toChange = "#numberAnswerTextfield";
+		
+	}
+	else{
+		toChange = "#answerTextfield";
+	}
+    $(toChange)[0].blur();
+    $(toChange)[0].value = "";
+    $(toChange)[0].disabled = true;
     $("#buzz1 .buzzer, #buzz2 .buzzer").removeClass("inverted");
     // see if other team has already lost, or if they need a shot
     if (teamAlreadyFailed == 0){
@@ -209,7 +227,7 @@ function newGame(){
 $(document).keydown(function(event){
 	//for buzz key presses
 	if (!currentlyGuessing){
-		code = event.keyCode;
+		var code = event.keyCode;
 		// buzz for correct code and prevent key from being entered in text field
 		switch (code){
 			case 65: //a
@@ -231,9 +249,31 @@ function buzz(whichTeam){
         // update status
         currentlyGuessing = true;
         teamCurrentlyAnswering = whichTeam;
-        // give the text field focus
-        $("#answerTextfield")[0].disabled = false;
-        $("#answerTextfield")[0].focus();
+        // display the correct text field and give it focus
+		var toShow, toHide;
+		if (currentlyNumberQuestion){
+			toShow = "#numberAnswerTextfield";
+			toHide = "#answerTextfield";
+			
+		}
+		else{
+			toShow = "#answerTextfield";
+			toHide = "#numberAnswerTextfield";
+		}
+		$(toHide)[0].disabled = true;
+		$(toHide).hide();
+		$(toShow).show();
+		$(toShow)[0].disabled = false;
+		$(toShow)[0].focus();
+		// bind enter key to number question box
+		if (currentlyNumberQuestion){
+			$(toShow).keypress(function(event){
+				numberAnswerBoxKeypress(event);
+			});
+		}
+		else{
+			$(toShow).unbind("keypress");
+		}
         // show which team is guessing
         var buzzerId = "#buzz" + whichTeam;
         $(buzzerId + " .buzzer").addClass("inverted");
@@ -244,18 +284,33 @@ function buzz(whichTeam){
     }
 }
 
+function numberAnswerBoxKeypress(event){
+	var code = event.keyCode;
+	if (code == 13){
+		makeGuess();
+	}
+}
+
 function makeGuess(){
     // stop the timer
     clearTimeout(turnTimerTimeoutHandle);
-    // get guess information and check if correct
-    var guess = $("#answerTextfield")[0].value;
-    var guessId = answerToID(guess);
-    if (currentQuestion[0] == guessId){
-        awardPoint(teamCurrentlyAnswering);
-    }
-    else{
-        outOfTime();
-    }
+    // check which type of question, get guess information and check if correct
+	if (currentlyNumberQuestion){
+		var guess = parseInt($("#numberAnswerTextfield")[0].value);
+		if (currentQuestion[0] == guess){
+			awardPoint(teamCurrentlyAnswering);
+			return;
+		}
+	}
+	else{
+		var guess = $("#answerTextfield")[0].value;
+		var guessId = answerToID(guess);
+		if (currentQuestion[0].substring(1) == guessId){
+			awardPoint(teamCurrentlyAnswering);
+			return;
+		}
+	}
+	outOfTime();
 }
 
 // *****************************

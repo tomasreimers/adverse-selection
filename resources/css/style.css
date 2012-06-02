@@ -64,10 +64,12 @@ ul {
 }
 ul li {
     margin-bottom:5px;
+    font-size:12px;
 }
 ul.compact li {
     display:inline;
     margin-left:5px;
+    font-size:16px;
 }
 .customRadio, .customCheckbox {
     color: #FFF;

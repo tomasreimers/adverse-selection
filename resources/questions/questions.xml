@@ -187,13 +187,133 @@
 			<string>Markets for Factors of Production (micro)</string>
 		</array>
 		<array>
-			<string>Intro, GDP, Unemployment, Inflation (macro)</string>
+			<string>Intro, GDP, CPI, Unemployment, Inflation (macro)</string>
+			<array>
+				<string>a122</string>
+				<string>What is a term used to describe the buying of 15 new sewing machines by an apparel company?</string>
+				<string>0</string>
+			</array>
+			<array>
+				<string>a34</string>
+				<string>What is the name of the situation in which an individual is without a job but is looking for work?</string>
+				<string>0</string>
+			</array>
+			<array>
+				<string>a118</string>
+				<string>What type of unemployment is experienced for a worker who is unemployed because his skills are obsolete?</string>
+				<string>0</string>
+			</array>
+			<array>
+				<string>a117</string>
+				<string>What type of unemployment is experienced for a recent college graduate who is looking for her first job?</string>
+				<string>0</string>
+			</array>
+			<array>
+				<string>2000</string>
+				<string>Assume that last year's CPI was 150 and nominal income was $30,000. If today's CPI is 160, how much does nominal income need to increase for the same real income?</string>
+				<string>0</string>
+			</array>
+			<array>
+				<string>5</string>
+				<string>If nominal income rises 4% and real income falls 1%, what is the percent change in price level?</string>
+				<string>0</string>
+			</array>
+			<array>
+				<string>a215</string>
+				<string>Which of the following best measures the change in price level of national product: consumer price index, GDP deflator, or producer price index?</string>
+				<string>0</string>
+			</array>
+			<array>
+				<string>a171</string>
+				<string>What model shows the relationship between the transfer of goods and services between households and industries?</string>
+				<string>0</string>
+			</array>
+			<array>
+				<string>a219</string>
+				<string>At what point is this economy producing at an allocatively inefficient level? (Point _)</string>
+				<string>2</string>
+			</array>
+			<array>
+				<string>a220</string>
+				<string>At what point would this economy be producing at an impossible level?</string>
+				<string>2</string>
+			</array>
 		</array>
 		<array>
 			<string>AD, AS, LRAS, and Econ Growth (macro)</string>
+			<array>
+				<string>a39</string>
+				<string>Which way will the demand curve as a result of an improvement in technology?</string>
+				<string>0</string>
+			</array>
+			<array>
+				<string>a37</string>
+				<string>Which way will the supply curve shift as a result of an improvement in technology?</string>
+				<string>0</string>
+			</array>
+			<array>
+				<string>a37</string>
+				<string>Improved productivity would ___ real income per capita.</string>
+				<string>0</string>
+			</array>
+			<array>
+				<string>a38</string>
+				<string>An increased population size and not change in productivity would ___ real income per capita.</string>
+				<string>0</string>
+			</array>
+			<array>
+				<string>a38</string>
+				<string>An increase in oil prices would shift SRAS which direction?</string>
+				<string>0</string>
+			</array>
+			<array>
+				<string>a39</string>
+				<string>A rightward shift of AD would cause SRAS to shift what direction?</string>
+				<string>0</string>
+			</array>
+			<array>
+				<string>a37</string>
+				<string>A decrease in taxes would shift AD what direction?</string>
+				<string>0</string>
+			</array>
+			<array>
+				<string>a37</string>
+				<string>A government policy that encourages saving and investment would shift LRAS which direction?</string>
+				<string>0</string>
+			</array>
+			<array>
+				<string>a38</string>
+				<string>What will happen to unemployment if consumption spending increases?</string>
+				<string>0</string>
+			</array>
+			<array>
+				<string>a221</string>
+				<string>What shape is the AS curve in the long run?</string>
+				<string>0</string>
+			</array>
+			<array>
+				<string>a39</string>
+				<string>What would happen to U.S. GDP if an American entrepreneur founds and locates a software company in London?</string>
+				<string>0</string>
+			</array>
+			<array>
+				<string>a37</string>
+				<string>In an economy with a horizontal supply curve, an increase in government spending will cause output to change in what way?</string>
+				<string>0</string>
+			</array>
 		</array>
 		<array>
 			<string>Financial Sector: Money, Banking, and the Fed (macro)</string>
+			<array>
+				<string>a210</string>
+				<string>What is the largest component of the M1 money supply?</string>
+				<string>0</string>
+			</array>
+			<array>
+				<string>40000</string>
+				<string>If the reserve requirement is 25% and banks have excess reserves of $10,000, what is the maximum amount of additional money that can be created through the lending process?</string>
+				<string>0</string>
+			</array>
 		</array>
 		<array>
 			<string>Monetary and Fiscal Policy (macro)</string>

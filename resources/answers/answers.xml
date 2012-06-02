@@ -41,7 +41,7 @@
     <string>Long Run Phillip's Curve</string>
     <string>Increase (If Curve, Shifts Right)</string>
     <string>Decrease (If Curve, Shifts Left)</string>
-    <string>No Change</string>
+    <string>No Change (If Curve, No Shift)</string>
     <string>Absolute Advantage</string>
     <string>Adverse Selection</string>
     <string>Advertising</string>
@@ -217,5 +217,15 @@
     <string>Fisher Effect</string>
     <string>Shortage (of a good)</string>
     <string>Surplus (of a good)</string>
+	<string>GDP Deflator</string>
+	<string>Point A</string>
+	<string>Point B</string>
+	<string>Point C</string>
+	<string>Point D</string>
+	<string>Point E</string>
+	<string>Vertical</string>
+	<string>Horizontal</string>
+	<string>Sloping Downward</string>
+	<string>Sloping Upward</string>
 </array>
 </plist>

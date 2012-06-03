@@ -170,6 +170,11 @@
 				<string>Calculate the coeffeciant of price elasticity if a 4% increase in price causes a 16% increase in quantity demanded.</string>
 				<string>0</string>
 			</array>
+			<array>
+				<string>a155</string>
+				<string>Progressive, regressive, or flat: What income tax structure can be used to reduce income inequality in an economy?</string>
+				<string>0</string>
+			</array>
 		</array>
 		<array>
 			<string>Consumer Choice (micro)</string>
@@ -339,6 +344,11 @@
 				<string>Shape of demand curve in PC firm?</string>
 				<string>0</string>
 			</array>
+			<array>
+				<string>a4</string>
+				<string>The long-run equilibrium price in a perfectly competitive market equals the lowest point in what curve?</string>
+				<string>0</string>
+			</array>
 		</array>
 		<array>
 			<string>Oligopolies and Monopolistic Competition (micro)</string>
@@ -453,6 +463,11 @@
 			<array>
 				<string>a88</string>
 				<string>A wage that is higher than it needs to be, with the intention of having the laborers work harder, is a:</string>
+				<string>0</string>
+			</array>
+			<array>
+				<string>a237</string>
+				<string>A bakery needs to buy apples in order to produce apple pies. What is the term for the demand for apples in this case?</string>
 				<string>0</string>
 			</array>
 		</array>
@@ -652,15 +667,380 @@
 				<string>If the reserve requirement is 25% and banks have excess reserves of $10,000, what is the maximum amount of additional money that can be created through the lending process?</string>
 				<string>0</string>
 			</array>
+			<array>
+				<string>a266</string>
+				<string>Will lenders or borrowers experience losses if inflation increases unexpectedly?</string>
+				<string>0</string>
+			</array>
+			<array>
+				<string>1000</string>
+				<string>If the required reserve ratio is 0.2 and the Federal Reserve buys $200 worth of securities, what will be the maximum increase in the money supply?</string>
+				<string>0</string>
+			</array>
+			<array>
+				<string>a228</string>
+				<string>What is the term used to describe the impact of rapid growth of the money supply?</string>
+				<string>0</string>
+			</array>
+			<array>
+				<string>a39</string>
+				<string>According to the quantity theory of money, over a long period of time, what happens to the velocity of money?</string>
+				<string>0</string>
+			</array>
+			<array>
+				<string>30</string>
+				<string>If $1000 is deposited into a checking account and excess reserves increase by $700, what must be the percent reserve ratio?</string>
+				<string>0</string>
+			</array>
+			<array>
+				<string>a188</string>
+				<string>Which function of money best defines the idea that Josh can save his income from 2009-2011 to buy a home in 2012? </string>
+				<string>0</string>
+			</array>
+			<array>
+				<string>a186</string>
+				<string>What is the name for money that has no intrinsic value?</string>
+				<string>0</string>
+			</array>
+			<array>
+				<string>a187</string>
+				<string>What is the name for money that has intrinsic value?</string>
+				<string>0</string>
+			</array>
 		</array>
 		<array>
 			<string>Monetary and Fiscal Policy (macro)</string>
+			<array>
+				<string>0.8</string>
+				<string>As income level increases from $1,500 to $2,000, consumption increases from $700 to 1,100. What is the marginal propensity to consume?</string>
+				<string>0</string>
+			</array>
+			<array>
+				<string>a122</string>
+				<string>Alice’s car wash buying new sponges will impact what portion of GDP?</string>
+				<string>0</string>
+			</array>
+			<array>
+				<string>a37</string>
+				<string>If the government spends $200 million on new airplanes, what will happen to price level?</string>
+				<string>0</string>
+			</array>
+			<array>
+				<string>100</string>
+				<string>If the marginal propensity to consume is 0.9, what is the maximum amount that the equilibrium GDP could change if government expenditures increase by $10?</string>
+				<string>0</string>
+			</array>
+			<array>
+				<string>a37</string>
+				<string>How would the simple spending multiplier change if the marginal propensity to save decreased?</string>
+				<string>0</string>
+			</array>
+			<array>
+				<string>a38</string>
+				<string>How would the simple spending multiplier change if the marginal propensity to consume decreased?</string>
+				<string>0</string>
+			</array>
+			<array>
+				<string>a143</string>
+				<string>To counteract a recession, what open-market operation should the Fed use?</string>
+				<string>0</string>
+			</array>
+			<array>
+				<string>a229</string>
+				<string>According to supply-side economists, what should be decreased to shift the AS curve right?</string>
+				<string>0</string>
+			</array>
+			<array>
+				<string>a72</string>
+				<string>What is the name for the effect for which competition between the government and private borrowers for loanable funds results in an increase in interest rates?</string>
+				<string>0</string>
+			</array>
+			<array>
+				<string>a38</string>
+				<string>In a long period of economic expansion, how will the amount spent on welfare programs change?</string>
+				<string>0</string>
+			</array>
+			<array>
+				<string>a128</string>
+				<string>What is the name of this curve?</string>
+				<string>0</string>
+			</array>
 		</array>
 		<array>
 			<string>Phillips curve, loanable funds, and Exchange Rate (macro)</string>
+			<array>
+				<string>a34</string>
+				<string>The phillips curve depicts the relationship between inflation and ___.</string>
+				<string>0</string>
+			</array>
+			<array>
+				<string>a37</string>
+				<string>Which way will the Phillips curve shift if there is a negative supply shock?</string>
+				<string>0</string>
+			</array>
+			<array>
+				<string>a39</string>
+				<string>How will an increase in inflation affect real wages?</string>
+				<string>0</string>
+			</array>
+			<array>
+				<string>a39</string>
+				<string>According to the long-run Phillips curve, what will happen to the unemployment rate when the Fed increases the money supply?</string>
+				<string>0</string>
+			</array>
+			<array>
+				<string>a37</string>
+				<string>According to the short-run Phillips curve, what will happen to the inflation rate when the Fed increases the money supply?</string>
+				<string>0</string>
+			</array>
+			<array>
+				<string>a221</string>
+				<string>If prices and wages are fully flexible, what is the shape of the Phillips curve?</string>
+				<string>0</string>
+			</array>
+			<array>
+				<string>a73</string>
+				<string>If a U.S. firm sells $500 million of its products to a Chinese company, what component of the balance of payments account will this contribute to?</string>
+				<string>0</string>
+			</array>
+			<array>
+				<string>a74</string>
+				<string>if a U.S. firm builds a new factory in China, what component of the balance of payments account will this contribute to?</string>
+				<string>0</string>
+			</array>
+			<array>
+				<string>a37</string>
+				<string>What will happen to U.S. exports if the international value of the dollar decreased?</string>
+				<string>0</string>
+			</array>
+			<array>
+				<string>a38</string>
+				<string>If there is capital flight from Japan, what will happen to the value of the Japanese Yen?</string>
+				<string>0</string>
+			</array>
+			<array>
+				<string>a214</string>
+				<string>If there is a current account deficit, is there a deficit or surplus in the capital account?</string>
+				<string>0</string>
+			</array>
+			<array>
+				<string>a98</string>
+				<string>The United States produces rice in a competitive market. With free trade, the world price is lower than the domestic price. Does the U.S. export or import rice?</string>
+				<string>0</string>
+			</array>
+			<array>
+				<string>a39</string>
+				<string>If import quotas are created, what will happen to government tax revenue from imported goods?</string>
+				<string>0</string>
+			</array>
+			<array>
+				<string>a159</string>
+				<string>What type of trade barrier involves placing a governmental limit on the quantity of a good that may be imported?  </string>
+				<string>0</string>
+			</array>
+			<array>
+				<string>a38</string>
+				<string>If investors feel that business conditions will deteriorate in the future, what will happen to the real interest rate?</string>
+				<string>0</string>
+			</array>
 		</array>
 		<array>
-			<string>Crimson Vocubulary (extra)</string>
+			<string>Crimson Questions (extra)</string>
+			<array>
+				<string>a230</string>
+				<string>Product warranties, performance bonuses, or better monitoring: which is NOT a solution to the principal-agent problem?</string>
+				<string>0</string>
+			</array>
+			<array>
+				<string>a231</string>
+				<string>What is the name of an intergovernmental organization of 12 oil producing nations, whose influence led to the oil shock of 1970s?</string>
+				<string>0</string>
+			</array>
+			<array>
+				<string>a232</string>
+				<string>Who is the influential liberal economist, known for his Keynesian views and his book "The Affluent Society"?</string>
+				<string>0</string>
+			</array>
+			<array>
+				<string>a235</string>
+				<string>S&amp;P 500, Dow Jones Industrial Average, or NASDAQ Composite: which stock index has the greatest number of companies?</string>
+				<string>0</string>
+			</array>
+			<array>
+				<string>30</string>
+				<string>Two points on a linear demand function are (Q=100, P=$10) and (Q=50, P=$20).  What is the lowest price at which quantity demanded would equal 0?</string>
+				<string>0</string>
+			</array>
+			<array>
+				<string>7</string>
+				<string>A firm faces fixed cost of $10, marginal costs of $2/unit on the first 10 units of production, $8/unit on the next 100 units of production. What is its average total cost for the first 50 units of production?</string>
+				<string>0</string>
+			</array>
+			<array>
+				<string>a236</string>
+				<string>What is the term that refers to those people who obtain a controlling share of a company through hostile takeover and enact measures that are directed at increasing the market value of the shares? Some examples include Carl Icahn and Gordon Gekko of the movie Wall Street.</string>
+				<string>0</string>
+			</array>
+			<array>
+				<string>a238</string>
+				<string>Which famous economist do we commonly associate with taxation in order to internalize externalities?</string>
+				<string>0</string>
+			</array>
+			<array>
+				<string>20</string>
+				<string>If the income elasticity of demand for a good is 3, by what percentage must income change in order to increase the amount of the good purchased by 60 percent?</string>
+				<string>0</string>
+			</array>
+			<array>
+				<string>a107</string>
+				<string>What do you call a good for which the income effect of a price increase dominates the substitution effect?</string>
+				<string>0</string>
+			</array>
+			<array>
+				<string>a156</string>
+				<string>Progressive, regressive, or flat: A lump-sum tax is known as this form of taxation:</string>
+				<string>0</string>
+			</array>
+			<array>
+				<string>a239</string>
+				<string>What does the Gini coefficient measure?</string>
+				<string>0</string>
+			</array>
+			<array>
+				<string>5</string>
+				<string>If a firm’s total revenue can always be expressed as 5Q (5 times the quantity it produces), what is this firm’s marginal revenue?</string>
+				<string>0</string>
+			</array>
+			<array>
+				<string>a66</string>
+				<string>This type of behavior between two or more firms with dominant power in a particular market, where the firms agree to limit competitive behaviors and increase profits, is illegal in the United States. What is this behavior?</string>
+				<string>0</string>
+			</array>
+			<array>
+				<string>12</string>
+				<string>How many regional Federal Reserve banks are there?</string>
+				<string>0</string>
+			</array>
+			<array>
+				<string>a240</string>
+				<string>The 2010 Nobel Prize in economics was awarded to Diamond, Pissarides, and Mortensen for:</string>
+				<string>0</string>
+			</array>
+			<array>
+				<string>20</string>
+				<string>What is the marginal revenue product of labor in a competitive market when the wage rate is $20, the marginal product of labor is 5 units of output and the price of the competitively produced good is $4?  </string>
+				<string>0</string>
+			</array>
+			<array>
+				<string>a241</string>
+				<string>Who was the financier that intervened during the Panic of 1907 to shore up the banking system and is the founder of a prominent US financial institution?</string>
+				<string>0</string>
+			</array>
+			<array>
+				<string>8</string>
+				<string>The demand for widgets in Country A is Q=20-P and the domestic supply is Q=P. The world price of widgets is $5. What is the quota limit that will have the same impact as a $1 per unit tariff?</string>
+				<string>0</string>
+			</array>
+			<array>
+				<string>a177</string>
+				<string>To which economist is the principle that fiscal stimulus has a multiplicative effect attributed?</string>
+				<string>0</string>
+			</array>
+			<array>
+				<string>a242</string>
+				<string>What is the term for the slope of an indifference curve?</string>
+				<string>0</string>
+			</array>
+			<array>
+				<string>a243</string>
+				<string>True or false: All Giffen goods are inferior goods.</string>
+				<string>0</string>
+			</array>
+			<array>
+				<string>a37</string>
+				<string>How does unexpected deflation affect the debt burden?</string>
+				<string>0</string>
+			</array>
+			<array>
+				<string>500</string>
+				<string>Country Y has a GDP of $1000, investment of $200, government purchases of $200, and net exports of $100. How much is the consumption?</string>
+				<string>0</string>
+			</array>
+			<array>
+				<string>90</string>
+				<string>The nominal GDP of Country X is $90 billion.  The real GDP is $100 billion. The value of the GDP deflator in base year was 100. What is the value of the GDP deflator now?</string>
+				<string>0</string>
+			</array>
+			<array>
+				<string>a244</string>
+				<string>It is possible for indifference curves to cross.</string>
+				<string>0</string>
+			</array>
+			<array>
+				<string>a245</string>
+				<string>What is the term used to describe the cost to an economy when growth slows or stops in order to combat inflation?</string>
+				<string>0</string>
+			</array>
+			<array>
+				<string>a246</string>
+				<string>Which empirical “law” relates deviations in unemployment with deviations in GDP?</string>
+				<string>0</string>
+			</array>
+			<array>
+				<string>a81</string>
+				<string>Which interest rate is usually higher, the Federal Funds rate or the Discount rate?</string>
+				<string>0</string>
+			</array>
+			<array>
+				<string>a250</string>
+				<string>Welfare, Medicaid, or Social Security: which is NOT a means-tested program?</string>
+				<string>0</string>
+			</array>
+			<array>
+				<string>-1.1</string>
+				<string>Will earns $100 this year and has no income next year. The interest rate is 10%. If you were to plot “spending this year” on the x-axis and “spending next year” on the y-axis, what is the slope of Will’s budget constraint? </string>
+				<string>0</string>
+			</array>
+			<array>
+				<string>-14</string>
+				<string>The real GDP of Country Y in 2009 was $100 trillion. The real GDP in 2010 is $86 trillion. What is the percent rate of change in real GDP from year 2009 to 2010?</string>
+				<string>0</string>
+			</array>
+			<array>
+				<string>a103</string>
+				<string>Monetary policy or fiscal policy: which has a shorter decision lag?</string>
+				<string>0</string>
+			</array>
+			<array>
+				<string>a251</string>
+				<string>Which economist received the Nobel Prize in Economics for his work on rational expectations theory?</string>
+				<string>0</string>
+			</array>
+			<array>
+				<string>a37</string>
+				<string>Assume both current and future consumption are normal goods. Income is earned only today. If the interest rate falls, what will happen to current consumption?</string>
+				<string>0</string>
+			</array>
+			<array>
+				<string>a179</string>
+				<string>What is the term that refers to a central bank’s purchase of long term government bonds and other assets in order to implement expansionary monetary policy in a severe recession?</string>
+				<string>0</string>
+			</array>
+			<array>
+				<string>a212</string>
+				<string>What is the term for the relationship between nominal interest rate, real interest rate, and inflation?</string>
+				<string>0</string>
+			</array>
+			<array>
+				<string>a252</string>
+				<string>What theory explains how interest rates are determined, and why they are higher on longer-term assets?</string>
+				<string>0</string>
+			</array>
+			<array>
+				<string>a253</string>
+				<string>What is the Latin term used in Economics for 'all other things being equal'?</string>
+				<string>0</string>
+			</array>
 		</array>
 	</array>
 </plist>

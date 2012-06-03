@@ -99,8 +99,8 @@
     <string>Entrepreneurship</string>
     <string>Equity</string>
     <string>Efficiency</string>
-    <string>Exports</string>
-    <string>Imports</string>
+    <string>Export</string>
+    <string>Import</string>
     <string>The Federal Reserve (The Fed)</string>
     <string>Fixed Costs</string>
     <string>Variable Costs</string>
@@ -228,5 +228,33 @@
 	<string>Sloping Downward</string>
 	<string>Sloping Upward</string>
     <string>Lorenz Curve</string>
+	<string>Lenders</string>
+	<string>Borrowers</string>
+	<string>Hyperinflation</string>
+	<string>Taxes</string>
+	<string>Product Warrenties</string>
+	<string>OPEC (Organization of the Petroleum Exporting Countries)</string>
+	<string>John Kenneth Galbraith</string>
+	<string>S&amp;P 500</string>
+	<string>Dow Jones Industrial Average</string>
+	<string>NASDAQ Composite</string>
+	<string>Corporate raider</string>
+	<string>Derived Demand</string>
+	<string>Arthur Pigou</string>
+	<string>Income Inequality</string>
+	<string>Search Theory / Search Frictions</string>
+	<string>J.P. Morgan</string>
+	<string>Marginal Rate of Substitution</string>
+	<string>True</string>
+	<string>False</string>
+	<string>Sacrifice Ratio</string>
+	<string>Okun's Law</string>
+	<string>Federal Funds Rate</string>
+	<string>Welfare</string>
+	<string>Medicaid</string>
+	<string>Social Security</string>
+	<string>Robert Lucas</string>
+	<string>Liquidity Preference</string>
+	<string>Ceteris paribus</string>
 </array>
 </plist>

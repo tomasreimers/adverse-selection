@@ -62,7 +62,7 @@
     <string>Public Goods</string>
     <string>Private Goods</string>
     <string>Common Goods / Common Resources</string>
-    <string>Public Goods</string>
+    <string>Human Right</string>
     <string>Rival</string>
     <string>Non-rival</string>
     <string>Excludable</string>
@@ -215,8 +215,8 @@
     <string>Demand Deposits</string>
     <string>Fractional Reserve Banking</string>
     <string>Fisher Effect</string>
-    <string>Shortage (of a good)</string>
-    <string>Surplus (of a good)</string>
+    <string>Shortage</string>
+    <string>Surplus</string>
 	<string>GDP Deflator</string>
 	<string>Point A</string>
 	<string>Point B</string>
@@ -227,5 +227,6 @@
 	<string>Horizontal</string>
 	<string>Sloping Downward</string>
 	<string>Sloping Upward</string>
+    <string>Lorenz Curve</string>
 </array>
 </plist>

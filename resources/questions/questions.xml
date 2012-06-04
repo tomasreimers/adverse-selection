@@ -20,6 +20,16 @@
 				<string>0</string>
 			</array>
 			<array>
+				<string>45</string>
+				<string>If it takes me 15 minutes to get up, 15 minutes to get ready, 15 minutes to walk to class, and 45 minutes to sit through class, my opportunity cost for attending class is ___ minutes.</string>
+				<string>0</string>
+			</array>
+			<array>
+				<string>243</string>
+				<string>True or false: If I value attending class at $12, but I can get paid $10 working, I should attend class.</string>
+				<string>0</string>
+			</array>
+			<array>
 				<string>a180</string>
 				<string>When Bryan goes to a concert, he gives up $100 in wages, $19 dollars for a ticket, and another $19 to bring Joshua. These costs are called his:</string>
 				<string>0</string>
@@ -47,6 +57,26 @@
 			<array>
 				<string>a140</string>
 				<string>"The government doesn't provide free healthcare," what type of statement is that?</string>
+				<string>0</string>
+			</array>
+			<array>
+				<string>a139</string>
+				<string>"I should be able to dump toxic waste in rivers," what type of statement is that?</string>
+				<string>0</string>
+			</array>
+			<array>
+				<string>a140</string>
+				<string>"I am able to dump toxic waste in rivers," what type of statement is that?</string>
+				<string>0</string>
+			</array>
+			<array>
+				<string>a139</string>
+				<string>"I should be able to dismiss myself from school," what type of statement is that?</string>
+				<string>0</string>
+			</array>
+			<array>
+				<string>a140</string>
+				<string>"I am able to dismiss myself from school," what type of statement is that?</string>
 				<string>0</string>
 			</array>
 		</array>
@@ -117,6 +147,36 @@
 				<string>If the government subsidizes the production of computers, which curve will increase in the computer market</string>
 				<string>0</string>
 			</array>
+			<array>
+				<string>a5</string>
+				<string>(Supply or demand) is typically upward sloping.</string>
+				<string>0</string>
+			</array>
+			<array>
+				<string>a6</string>
+				<string>(Supply or demand) is typically downward sloping.</string>
+				<string>0</string>
+			</array>
+			<array>
+				<string>a224</string>
+				<string>Supply typically slopes ____.</string>
+				<string>0</string>
+			</array>
+			<array>
+				<string>a223</string>
+				<string>Demand typically slopes ____.</string>
+				<string>0</string>
+			</array>
+			<array>
+				<string>a5</string>
+				<string>____ represents the amount producers are willing and able to produce at a given price level.</string>
+				<string>0</string>
+			</array>
+			<array>
+				<string>a6</string>
+				<string>____ represents the amount buyers are willing and able to purchase at a given price level.</string>
+				<string>0</string>
+			</array>
 		</array>
 		<array>
 			<string>Elasticity, Price Controls, Taxes, Consumer Surplus (micro)</string>
@@ -172,7 +232,12 @@
 			</array>
 			<array>
 				<string>a155</string>
-				<string>Progressive, regressive, or flat: What income tax structure can be used to reduce income inequality in an economy?</string>
+				<string>Progressive, regressive, or proportional (flat): What income tax structure can be used to reduce income inequality in an economy?</string>
+				<string>0</string>
+			</array>
+			<array>
+				<string>a89</string>
+				<string>When Bryan raises the price of pizza by $0.01, he loses all customers and goes out of business. Did the consumers value pizza as an inelastic, perfectly inelastic, elastic, perfectly elastic, or unit elastic good?</string>
 				<string>0</string>
 			</array>
 		</array>

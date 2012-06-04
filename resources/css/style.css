@@ -31,17 +31,29 @@ body {
     clear:both;
 }
 /******************* Home ************************/
+body {
+	margin: 0;
+}
 h1 {
     display:block;
     color:#FFF;
     font-size:36px;
     text-align:center;
     text-decoration:underline;
+	margin-top: 0;
+}
+#authors {
+	color: #FFF;
+	font-size: 10px;
+	margin-top: -20px;
+	margin-bottom: -10px;
 }
 h2 {
     display:block;
     color:#FFF;
     font-size:24px;
+	margin-top: 0;
+	margin-bottom: 5px;
 }
 #definitionBox {
     padding:10px;
@@ -51,25 +63,46 @@ h2 {
     border:1px solid #FFF;
 }
 #leftHalf {
-    float:left;
+	position: absolute;
+	padding-top: 40px;
+	left: 0;
+	top: 0;
     width:50%;
-	text-align: left;
+}
+#categorySelectionBox {
 	padding-left: 50px;
-	margin-right: -50px;
 }
 #rightHalf {
-    float:right;
-    width:45%;
+	position: absolute;
+	padding-top: 10px;
+	right: 0;
+	top: 0;
+    width:50%;
+}
+#detailsBox {
 	text-align: center;
-	padding-right: 50px;
-	margin-left: -50px;
+	padding-right: 20px;
+	padding-top: 30px;
     border-left:2px dashed #FFF;
+}
+#categorySelectionBox ul {
+	display: inline-block;
 }
 #categorySelectionBox ul li {
 	margin-left: -40px;
 }
+#categorySelectionBox ul li a {
+	width: 100%;
+}
+#categorySelectionBox ul li a .count {
+	padding-left: 10px;
+	float: right;
+}
+#roundsSelectionBox {
+	margin-top: 40px;
+}
 ul {
-    list-style-type:none;
+	list-style-type:none;
 }
 ul li {
     margin-bottom:5px;
@@ -108,8 +141,8 @@ ul.compact li {
     position:absolute;
     top:0;
     left:50%;
-    margin-left:-75px;
-    width:140px;
+    margin-left:-105px;
+    width:200px;
     height:75px;
     text-align:center;
     font-size:36px;
@@ -155,10 +188,10 @@ ul.compact li {
     position:relative;
 }
 #question #questionSupplement{
+	display: none;
     width:200px;
     height:200px;
     float:right;
-    background-image:url(../img/graphback.png);
     padding:20px;
     position: absolute;
     top:0;
@@ -239,10 +272,10 @@ ul.compact li {
     width:400px;
     border:none;
     border-bottom:2px dotted #B58900;
-    background-color:transparent;
+    background-color:transparent !important;
     padding:5px;
     font-family:'myChalkboard', 'arial', sans-serif;
-    color:#B58900;
+    color:#B58900 !important;
     font-size:16px;
 }
 #numberAnswerTextfield {

@@ -1,5 +1,5 @@
 // allowed game options
-var timeOptions = new Array(5, 10, 15, 20, 25, 30);
+var timeOptions = new Array(10, 15, 20, 25, 30, 35);
 var roundOptions = new Array(1, 5, 11, 15, 21, 25);
 var categoryOptions = new Array();
 var categoryCounts = new Array();
@@ -38,7 +38,7 @@ function createButtons(){
 		$("#roundsSelectionBox ul").append("<li><a id='round" + roundOptions[i] + "' class='customRadio' href='#' onclick='setRounds(" + roundOptions[i] + ")'>" + roundOptions[i] + "</a></li>");
 	}
 	for (i = 0; i < categoryOptions.length; i ++){
-		$("#categorySelectionBox ul").append("<li><a id='category" + i + "' class='customCheckbox checked' href='#' onclick='toggleCategories(" + i + ")'>" + categoryOptions[i] + " - " + categoryCounts[i] + " questions</a></li>");
+		$("#categorySelectionBox ul").append("<li><a id='category" + i + "' class='customCheckbox checked' href='#' onclick='toggleCategories(" + i + ")'>" + categoryOptions[i] + "<span class='count'>" + categoryCounts[i] + " questions</span></a></li>");
 	}
 	// select the default radio buttons
 	selectRadio("time" + time);

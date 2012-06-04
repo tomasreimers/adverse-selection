@@ -1,15 +1,19 @@
 .quickselect_results {
 	padding: 0px;
-	border: 1px solid WindowFrame;
-	background-color: Window;
+	border: 2px dashed #FFF;
+	border-top: none;
+	background-color: #01190F;
 	overflow: hidden;
+	margin-top: 10px;
+	width: 407px !important;
+	color: #FFF;
 }
 
 .quickselect_results ul {
 	width: 100%;
 	list-style-position: outside;
 	list-style: none;
-	padding: 0;
+	padding: 5px;
 	margin: 0;
 }
 
@@ -26,7 +30,8 @@
 }
 
 .quickselect_results li {
-	margin: 0px;
+	width: 386px !important;
+	margin: 0;
 	padding: 2px 5px;
 	cursor: pointer;
 	display: block;
@@ -41,6 +46,6 @@
 }
 
 .quickselect_selected {
-	background-color: Highlight;
-	color: HighlightText;
+	background-color: #FFF;
+	color: #01190F;
 }

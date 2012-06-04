@@ -9,10 +9,10 @@ var soundLoaded = false;
 var team1Score = 0;
 var team2Score = 0;
 var currentRound = 0;
-var totalRounds = 5;
+var totalRounds = 21;
 var questionSpeed = 100;
 var currentQuestion;
-var turnTime = 20;
+var turnTime = 25;
 var turnTimeLeft = 0;
 var teamAlreadyFailed = 0; // 0: neither, 1: team 1, 2: team 2
 var teamCurrentlyAnswering;
@@ -64,9 +64,12 @@ function beginGame(whatLoaded){
     if (whatLoaded == 'answers'){
         answersLoaded = true;
         // load answers to autocomplete
+		var numberOfResults = Math.round(($(document).height() - 437) / 20)
         $("#answerTextfield").quickselect({
             data : answers,
-            onItemSelect: makeGuess
+            onItemSelect: makeGuess,
+			noResultsDefault: "I have no idea",
+			maxVisibleItems: numberOfResults
         });
     }
 	if (whatLoaded == 'sound'){
@@ -74,23 +77,23 @@ function beginGame(whatLoaded){
 	}
 	//if all loaded, start game
     if (questionsLoaded && answersLoaded && soundLoaded){
-        startRound();
+        getReady();
     }
 }
 
-function awardPoint(whichTeam){
-	correctSound.play()
-    if (whichTeam == 1){
-        team1Score++;
-    }
-    else{
-        team2Score++;
-    }
-    // render score
-    $("#team1").children(".score").html(team1Score.toString());
-    $("#team2").children(".score").html(team2Score.toString());
-    // next round
-    startRound();
+function getReady(){
+	// make sure players are ready
+	$("#roundText").html("Get");
+	$("#roundContent").html("ready!");
+	setTimeout(getSet, 1600);
+	beginSound.play()
+}
+
+function getSet(){
+	// set up playing board
+	$("#roundContent").html("set!");
+	setTimeout(startRound, 1600);
+	beginSound.play()
 }
 
 function startRound(){
@@ -126,7 +129,7 @@ function startRound(){
 		currentlyGuessing = false;
 		teamAlreadyFailed = 0;
 		toggleRounds();
-                  $("#buzz1 .buzzer, #buzz2 .buzzer").removeClass("inverted");
+        $("#buzz1 .buzzer, #buzz2 .buzzer").removeClass("inverted");
 		// check whether current question is an answer or number question
 		currentQuestion = getNextQuestion();
 		if (currentQuestion[0][0] == 'a'){
@@ -145,7 +148,7 @@ function startRound(){
 		else{
 			$("#questionSupplement").hide()
 		}
-		nextLetterTimeoutHandle = setTimeout("revealLetter()", questionSpeed);
+		nextLetterTimeoutHandle = setTimeout(revealLetter, questionSpeed);
 		beginSound.play()
 	}
 }
@@ -181,6 +184,21 @@ function countdown(){
     }
 }
 
+function awardPoint(whichTeam){
+	correctSound.play()
+    if (whichTeam == 1){
+        team1Score++;
+    }
+    else{
+        team2Score++;
+    }
+    // render score
+    $("#team1").children(".score").html(team1Score.toString());
+    $("#team2").children(".score").html(team2Score.toString());
+    // next round
+    setTimeout(startRound, 2000);
+}
+
 function outOfTime(){
 	wrongSound.play()
     // modify rounds text and disable correct text field
@@ -200,11 +218,11 @@ function outOfTime(){
     if (teamAlreadyFailed == 0){
         teamAlreadyFailed = teamCurrentlyAnswering;
         currentlyGuessing = false;
-        revealLetter();
+        setTimeout(revealLetter, 2000);
     }
     else {
         // both teams lost, next round
-        startRound();
+		setTimeout(startRound, 2000);
     }
 }
 

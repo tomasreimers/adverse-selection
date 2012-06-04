@@ -102,7 +102,7 @@ function startRound(){
 	else if (team2Score == neededScore){
 		endGame(2);
 	}
-	if (currentRound >= totalRounds){
+	else if (currentRound >= totalRounds){
 		if (team1Score > team2Score){
 			endGame(1);
 		}
@@ -126,7 +126,7 @@ function startRound(){
 		currentlyGuessing = false;
 		teamAlreadyFailed = 0;
 		toggleRounds();
-        $("#buzz1 .buzzer, #buzz2 .buzzer").removeClass("inverted");
+                  $("#buzz1 .buzzer, #buzz2 .buzzer").removeClass("inverted");
 		// check whether current question is an answer or number question
 		currentQuestion = getNextQuestion();
 		if (currentQuestion[0][0] == 'a'){

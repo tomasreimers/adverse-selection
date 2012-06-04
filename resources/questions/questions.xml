@@ -46,7 +46,7 @@
 			</array>
 			<array>
 				<string>a140</string>
-				<string>"The government doesn't provide free hover-cars," what type of statement is that?</string>
+				<string>"The government doesn't provide free healthcare," what type of statement is that?</string>
 				<string>0</string>
 			</array>
 		</array>
@@ -281,6 +281,41 @@
 				<string>When Bryan halves all inputs and output more than halves, he is experiancing:</string>
 				<string>0</string>
 			</array>
+			<array>
+				<string>a79</string>
+				<string>Bryan opens a car wash; the fourth worker cleans less cars than the third worker. Identify the economic principle at fault.</string>
+				<string>0</string>
+			</array>
+			<array>
+				<string>2</string>
+				<string>After which worker are diminishing marginal returns experianced?</string>
+				<string>5</string>
+			</array>
+			<array>
+				<string>15</string>
+				<string>How much product does the second worker produce?</string>
+				<string>5</string>
+			</array>
+			<array>
+				<string>4</string>
+				<string>Assuming the company can hire up to 4 workers. How many workers should they hire to maximize widgets produced?</string>
+				<string>5</string>
+			</array>
+			<array>
+				<string>3</string>
+				<string>If the wage is $20, and widgets sell for $2, how many workers should this company hire?</string>
+				<string>5</string>
+			</array>
+			<array>
+				<string>20</string>
+				<string>If the wage is $20, and widgets sell for $2, what is the MFC of the 4th worker?</string>
+				<string>5</string>
+			</array>
+			<array>
+				<string>10</string>
+				<string>If the wage is $20, and widgets sell for $2, what is the MRP of the 4th worker?</string>
+				<string>5</string>
+			</array>
 		</array>
 		<array>
 			<string>PC and Monopolies (micro)</string>
@@ -347,6 +382,21 @@
 			<array>
 				<string>a4</string>
 				<string>The long-run equilibrium price in a perfectly competitive market equals the lowest point in what curve?</string>
+				<string>0</string>
+			</array>
+			<array>
+				<string>a37</string>
+				<string>If a PC market suddenly transforms into a monopoly, where the firm retains its original costs, what will happen to price?</string>
+				<string>0</string>
+			</array>
+			<array>
+				<string>a38</string>
+				<string>If a PC market suddenly transforms into a monopoly, where the firm retains its original costs, what will happen to quantity produced?</string>
+				<string>0</string>
+			</array>
+			<array>
+				<string>a39</string>
+				<string>If a PC market suddenly transforms into a monopoly, where the firm retains its original costs, what will happen to demand?</string>
 				<string>0</string>
 			</array>
 		</array>
@@ -468,6 +518,41 @@
 			<array>
 				<string>a237</string>
 				<string>A bakery needs to buy apples in order to produce apple pies. What is the term for the demand for apples in this case?</string>
+				<string>0</string>
+			</array>
+			<array>
+				<string>100</string>
+				<string>The town of derpopolis contains 200 people. 120 are of workign age. Of those people: 15 don't want work, 5 have given up looking for work, 79 have a full-time job, 11 have a part-time job and would like to get a full time job, and 10 are activily looking for work. How many people in the labor force?</string>
+				<string>0</string>
+			</array>
+			<array>
+				<string>10</string>
+				<string>The town of derpopolis contains 200 people. 120 are of workign age. Of those people: 15 don't want work, 5 have given up looking for work, 79 have a full-time job, 11 have a part-time job and would like to get a full time job, and 10 are activily looking for work. How many people are unemployed?</string>
+				<string>0</string>
+			</array>
+			<array>
+				<string>10</string>
+				<string>The town of derpopolis contains 200 people. 120 are of workign age. Of those people: 15 don't want work, 5 have given up looking for work, 79 have a full-time job, 11 have a part-time job and would like to get a full time job, and 10 are activily looking for work. What is the unemployment rate (in percent)?</string>
+				<string>0</string>
+			</array>
+			<array>
+				<string>a119</string>
+				<string>The town of derpopolis contains 200 people. 120 are of workign age. Of those people: 15 don't want work, 5 have given up looking for work, 79 have a full-time job, 11 have a part-time job and would like to get a full time job, and 10 are activily looking for work. What do you call the group of 5 people?</string>
+				<string>0</string>
+			</array>
+			<array>
+				<string>a116</string>
+				<string>Name the type of unemployment that is affected by recessions?</string>
+				<string>0</string>
+			</array>
+			<array>
+				<string>a117</string>
+				<string>Bryan takes a year off work to search for a new job. What type of unemployment does he count towards?</string>
+				<string>0</string>
+			</array>
+			<array>
+				<string>a118</string>
+				<string>Joshua's skills have become obsolete and he can't find a job. What type of unemployment does he count towards?</string>
 				<string>0</string>
 			</array>
 		</array>
@@ -661,6 +746,11 @@
 				<string>a210</string>
 				<string>What is the largest component of the M1 money supply?</string>
 				<string>0</string>
+			</array>
+			<array>
+				<string>a176</string>
+				<string>Name him.</string>
+				<string>6</string>
 			</array>
 			<array>
 				<string>40000</string>

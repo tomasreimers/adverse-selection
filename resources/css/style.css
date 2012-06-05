@@ -52,7 +52,7 @@ h2 {
     display:block;
     color:#FFF;
     font-size:24px;
-	margin-top: 0;
+	margin-top: -10px;
 	margin-bottom: 5px;
 }
 #definitionBox {
@@ -186,6 +186,9 @@ ul.compact li {
     font-size:36px;
     color:#FFF;
     position:relative;
+}
+#question.withSupplement {
+    margin-right:220px;
 }
 #question #questionSupplement{
 	display: none;

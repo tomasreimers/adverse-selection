@@ -12,6 +12,7 @@ var currentRound = 0;
 var totalRounds = 21;
 var questionSpeed = 100;
 var currentQuestion;
+var currentLetter;
 var turnTime = 25;
 var turnTimeLeft = 0;
 var teamAlreadyFailed = 0; // 0: neither, 1: team 1, 2: team 2
@@ -139,7 +140,7 @@ function startRound(){
 			currentlyNumberQuestion = true;
 		}
 		// set displayed question and supplemental image
-		$("#questionText").html("");
+		$("#questionText").html(createQuestionText(currentQuestion[1]));
 		$("#question").removeClass("withSupplement");
 		if (currentQuestion[2] != 0){
 			image = "resources/img/supplements/" + currentQuestion[2] + ".jpg";
@@ -151,15 +152,33 @@ function startRound(){
 			$("#questionSupplement").hide()
 		}
 		nextLetterTimeoutHandle = setTimeout(revealLetter, questionSpeed);
+		currentLetter = 0;
 		beginSound.play()
 	}
 }
 
+function createQuestionText(question){
+	var questionParts = new Array();
+	for(var i = 0; i < question.length; i ++){
+		questionParts.push("<span class='hidden' id='c" + i + "'>" + question[i] + "</span>");
+	}
+	return questionParts.join("");
+}
+
 function revealLetter(){
-    var currentLength = ($("#questionText").html()).length;
-    $("#questionText").html(currentQuestion[1].substr(0,(currentLength + 1)));
+	// if space, reveal another letter
+	if (currentQuestion[1][currentLetter] == ' '){
+		currentLetter ++;
+		revealLetter();
+		return;
+	}
+	else{
+		// otherwise, reveal the letter
+		$("#c" + currentLetter).removeClass("hidden");
+		currentLetter ++;
+	}
     // check if more letters to reveal
-    if ((currentLength + 1) < currentQuestion[1].length){
+    if (currentLetter < currentQuestion[1].length){
         nextLetterTimeoutHandle = setTimeout("revealLetter()", questionSpeed);
     }
     else{

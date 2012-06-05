@@ -201,6 +201,9 @@ ul.compact li {
     margin-right:250px;
 	font-family:'arial', sans-serif;
 }
+.hidden {
+	visibility:hidden;
+}
 #supplementalImage{
 	width: 200px;
 	height:200px;

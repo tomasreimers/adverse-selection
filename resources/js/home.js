@@ -1,6 +1,6 @@
 // allowed game options
 var timeOptions = new Array(10, 15, 20, 25, 30, 35);
-var roundOptions = new Array(1, 5, 11, 15, 21, 25);
+var roundOptions = new Array(1, 5, 11, 15, 21, 25, 100);
 var categoryOptions = new Array();
 var categoryCounts = new Array();
 

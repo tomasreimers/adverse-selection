@@ -109,5 +109,10 @@ function createGetString(){
 }
 
 $(document).ready(function (){
+	// warn user if window size is too small
+	if ($(window).width() < 840 || $(window).height() < 527){
+		alert("Your browser window is too small to play Adverse Selection!\nTry resizing your window to a larger size or using another computer.\n\nYou can try to play, but it's doubtful that you'll have much fun...");
+	}
+	// set up page
 	setCategories();
 });

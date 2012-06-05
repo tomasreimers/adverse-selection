@@ -1,0 +1,1171 @@
+#Intro to Basic Concepts (micro)
+
+a19
+A certain economy can only produce corn and computers. The graph that shows how many computers they can produce for their choosen level of corn production is called:
+0
+
+a165
+What is the main contraint in the allocation of resources?
+0
+
+2
+If country a can produce 2 mango or 4 bananas, what is the opportunity cost (in bananas) to produce 1 mango?
+0
+
+45
+If it takes me 15 minutes to get up, 15 minutes to get ready, 15 minutes to walk to class, and 45 minutes to sit through class, my opportunity cost for attending class is ___ minutes.
+0
+
+243
+True or false: If I value attending class at $12, but I can get paid $10 working, I should attend class.
+0
+
+a180
+When Bryan goes to a concert, he gives up $100 in wages, $19 dollars for a ticket, and another $19 to bring Joshua. These costs are called his:
+0
+
+a184
+When people must decide between two things they are making a:
+0
+
+a65
+Joshua can write 6 multiple choice or 2 open response, while Bryan can write 8 multiple choice or 4 open response. What advantage does Joshua have in writing multiple choice?
+0
+
+a40
+Joshua can write 6 multiple choice or 2 open response, while Bryan can write 8 multiple choice or 4 open response. What advantage does Bryan have in writing multiple choice?
+0
+
+a139
+"The government should provide free healthcare," what type of statement is that?
+0
+
+a140
+"The government doesn't provide free healthcare," what type of statement is that?
+0
+
+a139
+"I should be able to dump toxic waste in rivers," what type of statement is that?
+0
+
+a140
+"I am able to dump toxic waste in rivers," what type of statement is that?
+0
+
+a139
+"I should be able to dismiss myself from school," what type of statement is that?
+0
+
+a140
+"I am able to dismiss myself from school," what type of statement is that?
+0
+
+a254
+An economy that has elements of both market and command economies is called:
+0
+
+a65
+Economists believe countries will have more goods and services available to them if they trade on the basis of:
+0
+
+a165
+Unlimited human wants, together with limited resources, create the economics problem known as:
+0
+
+a180
+If a country has a comparative advantage in a good, this means that when compared to other countries, it can produce that good at a lower:
+0
+
+#Supply and Demand (micro)
+
+a39
+If the price of bird seed goes down, what happens to the demand curve for bird seed? 
+0
+
+a38
+An improvement in production technology causes what to happen to the price?
+0
+
+a37
+If the amount of buyers increases, what happens to quantity produced?
+0
+
+a39
+If the amount of suppliers in a market increases, what happens to demand?
+0
+
+a67
+Joshua always buys bagels and tubs of cream cheese together, to Joshua bagels and cream cheese are what type of goods?
+0
+
+a68
+Bryan enjoys coffee and orange juice, however he always has one or the other, to Bryan coffee and orange juice are what type of goods?
+0
+
+a114
+Bryan starts winning more economics competitions and makes more money; with that money he buys more suits. To Bryan suits are what type of good?
+0
+
+a114
+Joshua takes a sabbatical in Fiji and his income goes down, because of this he buys less video games. To Joshua video games are what type of good?
+0
+
+a113
+Joshua takes a sabbatical in Fiji and his income goes down, because of this he buys more flip-flops. To Joshua flip-flops are what type of good?
+0
+
+a38
+As the price of peanut butter increases, what happens to the price of jelly, a complementary good?
+0
+
+a38
+As the demand for pens decreases, what happens to the price of paper, a complementary good?
+0
+
+a37
+As Joshua treats hamburgers and hotdogs as substitute goods. What will happen to the quantity of hot dogs he demands when the price of hamburgers increases?
+0
+
+a37
+According to the law of demand, quanity decreases if price does what?
+0
+
+a5
+If the government subsidizes the production of computers, which curve will increase in the computer market
+0
+
+a5
+(Supply or demand) is typically upward sloping.
+0
+
+a6
+(Supply or demand) is typically downward sloping.
+0
+
+a224
+Supply typically slopes ____.
+0
+
+a223
+Demand typically slopes ____.
+0
+
+a5
+____ represents the amount producers are willing and able to produce at a given price level.
+0
+
+a6
+____ represents the amount buyers are willing and able to purchase at a given price level.
+0
+
+#Elasticity, Price Controls, Taxes, Consumer Surplus (micro)
+
+a17
+Bryan decides that he should increase the price of pizza at his store. He must believe that pizza is: 
+0
+
+a17
+Bryan increase the price of pizza at his store and starts making less revenue, the pizza is a(n) ___ good
+0
+
+a38
+Econ Textbooks Inc has an economic consultant come in. If the consultant determiens the books are elastic goods, he will advise the comapny to do what to their price to increase profit?
+0
+
+a214
+A binding price floor is imposed on a good, their is now a ___ of the good.
+0
+
+a39
+A price ceiling is imposed above the equilibrium price, how is the quanity affected?
+0
+
+a90
+A producer raises their prices by exactly $6.14 and finds that they still sell the exact same amount. The good is considered to be ___.
+0
+
+a38
+If the producer of an elastic good raises their prices, what will happen to their total revenue?
+0
+
+a16
+If the government says that a certain company may not sell above a certain level, the government has imposed a what?
+0
+
+a67
+If the cross price elasticity of demand is negative, the goods are what type of goods?
+0
+
+4
+Calculate the coeffeciant of price elasticity if a 4% increase in price causes a 16% increase in quantity demanded.
+0
+
+a155
+Progressive, regressive, or proportional (flat): What income tax structure can be used to reduce income inequality in an economy?
+0
+
+a156
+If someone pays a smaller fraction of their income in taxes as their income increases, then the tax is considered:
+0
+
+a89
+When Bryan raises the price of pizza by $0.01, he loses all customers and goes out of business. Did the consumers value pizza as an inelastic, perfectly inelastic, elastic, perfectly elastic, or unit elastic good?
+0
+
+a38
+If the price elasticity of demand for peanut butter is .75, then lowering the price of peanut butter will have what impact on total revenues?
+0
+
+a155
+If a larger fraction of income must be paid in taxes as income goes up, this tax is considered to be a:
+0
+
+#Consumer Choice (micro)
+
+0
+Calculate the value of marginal utility when utility is maximized.
+0
+
+6
+Joshua loves chips($2) and cookies($3), if his utility is maximized and his last cookie provided him with 4 utils, how many utils did his last cookie provide?
+0
+
+a111
+A (normal) good's price increases and makes the buyers feel poorer causing them to purchase less of it, this effect is called:
+0
+
+a112
+A (normal) good's price increases and makes buyers buy more substitutes, this effect is called:
+0
+
+a80
+Each slice of pizza provides Joshua with less and less satisfaction, this is called:
+0
+
+1
+Let a be the marginal utility per dollar of good a, and b be the mu/$ of good b. If total utility is maximized, a/b is:
+0
+
+a80
+Suppose Joshua is at a Red Sox game. Joshua finds that his first hot dog tastes better than his second, and his second tastes better than his third. This show’s Joshua’s tastes are consistent with the economics principle of:
+0
+
+3
+Utility is maximized after consuming how many hotdogs?
+7
+
+2
+Diminishing marginal utility occurs after which hotdog?
+7
+
+6
+What is the utility gained from eating 1 hotdog?
+7
+
+18
+What is the utility gained from eating 2 hotdogs?
+7
+
+18
+What is the utility gained from eating 4 hotdogs?
+7
+
+3
+A hotdog cost $2, what is the marginal utility per dollar of the 1st hotdog?
+7
+
+6
+A hotdog cost $2, what is the marginal utility per dollar of the 2st hotdog?
+7
+
+2
+Bryan's last coke gave him 42 utils per dollar. If he is maximizing utility and his last cookie provided him with 84 utils, how much did it cost (in dollars)?
+0
+
+#Costs of production (micro)
+
+a100
+In the long run there are no:
+0
+
+a4
+The average cost for producing a product:
+0
+
+6
+(In dollars, i.e. "3") the marginal cost for the 4 unit is:
+3
+
+16
+(In dollars, i.e. "3") ATC for producing 6 units:
+3
+
+24
+(In dollars, i.e. "3") Fixed Costs:
+3
+
+1
+(In dollars, i.e. "3") Unit afterwhich diminishing marginal returns are experianced:
+3
+
+12
+(In dollars, i.e. "3") AFC for producing two units:
+3
+
+a14
+What must go down as more units are produced:
+0
+
+a39
+What change will an increase in the rent of the factory have on ATC in the short run?
+0
+
+a37
+What change will an increase in the rent of the factory have on ATC in the long run?
+0
+
+a2
+Change in total cost divided by change in quanity equals
+0
+
+a82
+When Joshua doubles all inputs and output more than doubles he is experiancing:
+0
+
+a83
+When Bryan halves all inputs and output more than halves, he is experiancing:
+0
+
+a79
+Bryan opens a car wash; the fourth worker cleans less cars than the third worker. Identify the economic principle at fault.
+0
+
+2
+After which worker are diminishing marginal returns experianced?
+5
+
+15
+How much product does the second worker produce?
+5
+
+4
+Assuming the company can hire up to 4 workers. How many workers should they hire to maximize widgets produced?
+5
+
+3
+If the wage is $20, and widgets sell for $2, how many workers should this company hire?
+5
+
+20
+If the wage is $20, and widgets sell for $2, what is the MFC of the 4th worker?
+5
+
+10
+If the wage is $20, and widgets sell for $2, what is the MRP of the 4th worker?
+5
+
+a3
+To maximize profit, Pizza Hut should produce where marginal cost equals:
+5
+
+#PC and Monopolies (micro)
+
+a3
+Change in revenue after a one unit increase in output:
+0
+
+a13
+A PC firm shuts down in the short run if price is below the lowest point in which curve?
+0
+
+0
+If a PC firm has variable cosst of $24 and fixed costs of $33 what is the maximum profit it can make in the long run?
+0
+
+a39
+As people earn profits in a PC market, what happens to the amount of firms in the short run?
+0
+
+a37
+As people earn profits in a PC market, what happens to the amount of firms in the long run?
+0
+
+a2
+A firm should produce when marginal revenue equals which cost?
+0
+
+a152
+The point in a monopoly when MC = D?
+0
+
+a151
+The point in a monopoly when ATC = D?
+0
+
+0
+What is a monopolies profit at the fair market price, if it made $255 at the profit maximizing price and $12 at the socially optimal price?
+0
+
+a3
+Revenue is maximized when which curve intersects the X axis?
+0
+
+a75
+Triangle typically bound by the quantity sold, the demand curve, and the supply curve?
+0
+
+a222
+Shape of demand curve in PC firm?
+0
+
+a4
+The long-run equilibrium price in a perfectly competitive market equals the lowest point in what curve?
+0
+
+a37
+If a PC market suddenly transforms into a monopoly, where the firm retains its original costs, what will happen to price?
+0
+
+a38
+If a PC market suddenly transforms into a monopoly, where the firm retains its original costs, what will happen to quantity produced?
+0
+
+a39
+If a PC market suddenly transforms into a monopoly, where the firm retains its original costs, what will happen to demand?
+0
+
+a9
+Consider the 4 main types of market structures. Of these, which one results in individual firms facing horizontal demand curves?
+0
+
+#Oligopolies and Monopolistic Competition (micro)
+
+a141
+A market with only a few firms is called a:
+0
+
+a10
+A market with many firms that have slightly differenciated products is called a ___ market.
+0
+
+a197
+OPEC is an example of a:
+0
+
+0
+A monopolistically competitive firm can earn ___ profit in the long run if the other firms are earning $25 profit in the short run?
+0
+
+a45
+Monopolistically competitive firm can't earn profit in the long run because there are no ___.
+0
+
+a4
+A monopolistically competitive firm at equalibrium will charge where the demand curve touches which curve?
+0
+
+a38
+If oligopolies form a cartel, what happens to price?
+0
+
+a37
+If oligopolies form a cartel, what happens to quantity?
+0
+
+a39
+If oligopolies form a cartel, what happens to demand?
+0
+
+a138
+If two firms choose an option and will not make a different choice regardless of what the other firms do, the two firms are in ____ equilibrium.
+0
+
+a45
+A monopolistically competitive and a perfectly competitive market both lack this feature of oligopolized and monopolized markets.
+0
+
+a141
+A market where the firms are price searchers is an ___.
+0
+
+a9
+A market where the firms are price takers is a ___.
+0
+
+a8
+A market where the firm is the market is a ___.
+0
+
+a146
+If students can pay half price for tickets to a concert, while non-students pay full price, this practice is called:
+0
+
+#Markets for Factors of Production (micro)
+
+a214
+A minmum wage will cause a ___ in the labor market.
+0
+
+a119
+Change in income that occurs from the production of one more good is called the:
+0
+
+a119
+A firm should hire until ___ equals marginal factor cost.
+0
+
+a200
+The cost of an additional worker is refered to as:
+0
+
+a39
+A firm hires labor in a PC market, as the firm continues to hire labor how will wages change?
+0
+
+a37
+A monsopsony hires labor, as the firm continues to hire labor how will wages change?
+0
+
+a7
+An increase in ___ will increase the quantity supplied of labor.
+0
+
+a199
+An increase in ___ will increase the demand for labor.
+0
+
+a79
+Diminishing marginal utility is to pizza as ___ is to labor.
+0
+
+a225
+Name the curve that shows income equality.
+0
+
+a88
+A wage that is higher than it needs to be, with the intention of having the laborers work harder, is a:
+0
+
+a237
+A bakery needs to buy apples in order to produce apple pies. What is the term for the demand for apples in this case?
+0
+
+100
+The town of derpopolis contains 200 people. 120 are of workign age. Of those people: 15 don't want work, 5 have given up looking for work, 79 have a full-time job, 11 have a part-time job and would like to get a full time job, and 10 are activily looking for work. How many people in the labor force?
+0
+
+10
+The town of derpopolis contains 200 people. 120 are of workign age. Of those people: 15 don't want work, 5 have given up looking for work, 79 have a full-time job, 11 have a part-time job and would like to get a full time job, and 10 are activily looking for work. How many people are unemployed?
+0
+
+10
+The town of derpopolis contains 200 people. 120 are of workign age. Of those people: 15 don't want work, 5 have given up looking for work, 79 have a full-time job, 11 have a part-time job and would like to get a full time job, and 10 are activily looking for work. What is the unemployment rate (in percent)?
+0
+
+a119
+The town of derpopolis contains 200 people. 120 are of workign age. Of those people: 15 don't want work, 5 have given up looking for work, 79 have a full-time job, 11 have a part-time job and would like to get a full time job, and 10 are activily looking for work. What do you call the group of 5 people?
+0
+
+a116
+Name the type of unemployment that is affected by recessions?
+0
+
+a117
+Bryan takes a year off work to search for a new job. What type of unemployment does he count towards?
+0
+
+a118
+Joshua's skills have become obsolete and he can't find a job. What type of unemployment does he count towards?
+0
+
+a117
+The unemployment that arises from normal labor turnover--that is, from people being temporarily "between jobs"--is called:
+0
+
+a257
+What do we call the additional output obtained from hiring another worker?
+0
+
+#Externalities (micro)
+
+a20
+Dumping toxic waste into a river is a: 
+0
+
+a21
+Education is a ___ externailty. 
+0
+
+a104
+If Bryan benefits from a good which Joshua bought, Bryan is a:
+0
+
+a191
+A tax to discourage bad activities is called a:
+0
+
+a104
+Listening to NPR, which is completely funded by donations, without ever making a donation, you are a:
+0
+
+a57
+Public defense is a ___ good.
+0
+
+a58
+An ice cream cone is a ___ good.
+0
+
+a21
+A chocolate factory makes a pleasent smell which everyone enjoys whether or not they buy the chocalate. The smell is a:
+0
+
+a59
+The tragedy of the commons refers to a problem which can arise with ____ goods.
+0
+
+a57
+The ozone, which protects us all from being damaged by the sun's rays, is a ___ good.
+0
+
+a192
+When everyone has their cows overgraze a common pasture, and ruin it, this is called the:
+0
+
+a61
+When Joshua's use of a good causes Bryan to enjoy the good less, the good is:
+0
+
+a64
+When Bryan can't prevent Joshua from using a good, the good is:
+0
+
+a57
+Lighthouses are considered examples of what type of goods
+0
+
+a58
+Rival, excludable: Name the type of good.
+0
+
+a57
+non-rival, excludable: Name the type of good.
+0
+
+a59
+rival, non-excludable: Name the type of good.
+0
+
+#Intro, GDP, CPI, Unemployment, Inflation (macro)
+
+a122
+What is a term used to describe the buying of 15 new sewing machines by an apparel company?
+0
+
+a34
+What is the name of the situation in which an individual is without a job but is looking for work?
+0
+
+a118
+What type of unemployment is experienced for a worker who is unemployed because his skills are obsolete?
+0
+
+a117
+What type of unemployment is experienced for a recent college graduate who is looking for her first job?
+0
+
+2000
+Assume that last year's CPI was 150 and nominal income was $30,000. If today's CPI is 160, how much does nominal income need to increase for the same real income?
+0
+
+5
+If nominal income rises 4% and real income falls 1%, what is the percent change in price level?
+0
+
+a215
+Which of the following best measures the change in price level of national product: consumer price index, GDP deflator, or producer price index?
+0
+
+a171
+What model shows the relationship between the transfer of goods and services between households and industries?
+0
+
+a219
+At what point is this economy producing at an allocatively inefficient level? ("Point _")
+2
+
+a220
+At what point would this economy be producing at an impossible level?
+2
+
+7
+If a bank wishes to earn a 2% real interest rate on the loans it makes, and if the inflation rate is 5%, then what nominal percent interest rate should the bank charge for its loans?
+0
+
+8
+If the Consumer Price Index is 100 in the one year and 108 in the next, then what was the inflation rate between these two years?
+0
+
+a127
+Expenditures for new military aircraft count as part of what category of spending in GDP?
+0
+
+a201
+What price index is based on a sampling of households and businesses?
+0
+
+2010
+Suppose a refrigerator is built in 2010, but not sold to a consumer until April 2011. In which year's GDP does the refrigerator count?
+0
+
+#AD, AS, LRAS, and Econ Growth (macro)
+
+a28
+What curve demonstrates the combined production of all the producers in a nation in the short run?
+0
+
+a29
+What curve demonstrates the combined production of all the producers in a nation in the long run?
+0
+
+a30
+What curve demonstrates the combined wants of all the consumers in a nation?
+0
+
+a39
+Which way will the demand curve as a result of an improvement in technology?
+0
+
+a39
+Which way will the demand curve as a result of an improvement in technology?
+0
+
+a37
+Which way will the supply curve shift as a result of an improvement in technology?
+0
+
+a37
+Improved productivity would ___ real income per capita.
+0
+
+a38
+An increased population size and not change in productivity would ___ real income per capita.
+0
+
+a38
+An increase in oil prices would shift SRAS which direction?
+0
+
+a39
+A rightward shift of AD would cause SRAS to shift what direction?
+0
+
+a37
+A decrease in taxes would shift AD what direction?
+0
+
+a37
+A government policy that encourages saving and investment would shift LRAS which direction?
+0
+
+a38
+What will happen to unemployment if consumption spending increases?
+0
+
+a221
+What shape is the AS curve in the long run?
+0
+
+a39
+What would happen to U.S. GDP if an American entrepreneur founds and locates a software company in London?
+0
+
+a37
+In an economy with a horizontal supply curve, an increase in government spending will cause output to change in what way?
+0
+
+#Financial Sector: Money, Banking, and the Fed (macro)
+
+a210
+What is the largest component of the M1 money supply?
+0
+
+a176
+Name him.
+6
+
+40000
+If the reserve requirement is 25% and banks have excess reserves of $10,000, what is the maximum amount of additional money that can be created through the lending process?
+0
+
+a226
+Will lenders or borrowers experience losses if inflation increases unexpectedly?
+0
+
+a227
+Will lenders or borrowers experience losses if deflations occurs unexpectedly?
+0
+
+1000
+If the required reserve ratio is 0.2 and the Federal Reserve buys $200 worth of securities, what will be the maximum increase in the money supply?
+0
+
+a228
+What is the term used to describe the impact of rapid growth of the money supply due to the government funding its debt by printing additional money?
+0
+
+a39
+According to the quantity theory of money, over a long period of time, what happens to the velocity of money?
+0
+
+30
+If $1000 is deposited into a checking account and excess reserves increase by $700, what must be the percent reserve ratio?
+0
+
+a188
+Which function of money best defines the idea that Joshua can save his income from 2009-2011 to buy a home in 2012? 
+0
+
+a186
+What is the name for money that has no intrinsic value?
+0
+
+a187
+What is the name for money that has intrinsic value?
+0
+
+5
+If the required reserve ratio is 20%, what is the numerical value of the money multiplier?
+0
+
+a189
+The property of money which allows it to be used as a way to write prices or remember the value of a loan?
+0
+
+a211
+Name the United State's banking system in which banks can lend out a portion of their reserves.
+0
+
+#Monetary and Fiscal Policy (macro)
+
+0.8
+As income level increases from $1,500 to $2,000, consumption increases from $700 to 1,100. What is the marginal propensity to consume?
+0
+
+a122
+Alice’s car wash buying new sponges will impact what portion of GDP?
+0
+
+a37
+If the government spends $200 million on new airplanes, what will happen to price level?
+0
+
+100
+If the marginal propensity to consume is 0.9, what is the maximum amount that the equilibrium GDP could change if government expenditures increase by $10?
+0
+
+a37
+How would the simple spending multiplier change if the marginal propensity to save decreased?
+0
+
+a38
+How would the simple spending multiplier change if the marginal propensity to consume decreased?
+0
+
+a143
+To counteract a recession, what open-market operation should the Fed use?
+0
+
+a229
+According to supply-side economists, what should be decreased to shift the AS curve right?
+0
+
+a72
+What is the name for the effect for which competition between the government and private borrowers for loanable funds results in an increase in interest rates?
+0
+
+a38
+In a long period of economic expansion, how will the amount spent on welfare programs change?
+0
+
+a128
+What is the name of this curve?
+1
+
+4
+What is the numerical value of the income multiplier if the Marginal Propensity to Consume is .75?
+0
+
+a81
+Sometimes the Federal Reserve makes loans to commercial banks. What is the interest rate on these loans called?
+0
+
+a258
+The Federal Reserve Bank’s monetary policy tool that involves buying and selling securities is called:
+0
+
+10
+What is the numerical value of the income multiplier if the Marginal Propensity to Consume is .9?
+0
+
+#Phillips curve, loanable funds, and Exchange Rate (macro)
+
+a34
+The phillips curve depicts the relationship between inflation and ___.
+0
+
+a37
+Which way will the Phillips curve shift if there is a negative supply shock?
+0
+
+a39
+How will an increase in inflation affect real wages?
+0
+
+a39
+According to the long-run Phillips curve, what will happen to the unemployment rate when the Fed increases the money supply?
+0
+
+a37
+According to the short-run Phillips curve, what will happen to the inflation rate when the Fed increases the money supply?
+0
+
+a221
+If prices and wages are fully flexible, what is the shape of the Phillips curve?
+0
+
+a73
+If a U.S. firm sells $500 million of its products to a Chinese company, what component of the balance of payments account will this contribute to?
+0
+
+a74
+if a U.S. firm builds a new factory in China, what component of the balance of payments account will this contribute to?
+0
+
+a37
+What will happen to U.S. exports if the international value of the dollar decreased?
+0
+
+a38
+If there is capital flight from Japan, what will happen to the value of the Japanese Yen?
+0
+
+a214
+If there is a current account deficit, is there a deficit or surplus in the capital account?
+0
+
+a98
+The United States produces rice in a competitive market. With free trade, the world price is lower than the domestic price. Does the U.S. export or import rice?
+0
+
+a39
+If import quotas are created, what will happen to government tax revenue from imported goods?
+0
+
+a159
+What type of trade barrier involves placing a governmental limit on the quantity of a good that may be imported?  
+0
+
+a38
+If investors feel that business conditions will deteriorate in the future, what will happen to the real interest rate?
+0
+
+#Crimson Questions (extra)
+
+a230
+Product warranties, performance bonuses, or better monitoring: which is NOT a solution to the principal-agent problem?
+0
+
+a231
+What is the name of an intergovernmental organization of 12 oil producing nations, whose influence led to the oil shock of 1970s?
+0
+
+a232
+Who is the influential liberal economist, known for his Keynesian views and his book "The Affluent Society"?
+0
+
+a235
+S&amp;P 500, Dow Jones Industrial Average, or NASDAQ Composite: which stock index has the greatest number of companies?
+0
+
+30
+Two points on a linear demand function are (Q=100, P=$10) and (Q=50, P=$20).  What is the lowest price at which quantity demanded would equal 0?
+0
+
+7
+A firm faces fixed cost of $10, marginal costs of $2/unit on the first 10 units of production, $8/unit on the next 100 units of production. What is its average total cost for the first 50 units of production?
+0
+
+a236
+What is the term that refers to those people who obtain a controlling share of a company through hostile takeover and enact measures that are directed at increasing the market value of the shares? Some examples include Carl Icahn and Gordon Gekko of the movie Wall Street.
+0
+
+a238
+Which famous economist do we commonly associate with taxation in order to internalize externalities?
+0
+
+20
+If the income elasticity of demand for a good is 3, by what percentage must income change in order to increase the amount of the good purchased by 60 percent?
+0
+
+a107
+What do you call a good for which the income effect of a price increase dominates the substitution effect?
+0
+
+a156
+Progressive, regressive, or flat: A lump-sum tax is known as this form of taxation:
+0
+
+a239
+What does the Gini coefficient measure?
+0
+
+5
+If a firm’s total revenue can always be expressed as 5Q (5 times the quantity it produces), what is this firm’s marginal revenue?
+0
+
+a66
+This type of behavior between two or more firms with dominant power in a particular market, where the firms agree to limit competitive behaviors and increase profits, is illegal in the United States. What is this behavior?
+0
+
+12
+How many regional Federal Reserve banks are there?
+0
+
+a240
+The 2010 Nobel Prize in economics was awarded to Diamond, Pissarides, and Mortensen for:
+0
+
+20
+What is the marginal revenue product of labor in a competitive market when the wage rate is $20, the marginal product of labor is 5 units of output and the price of the competitively produced good is $4?  
+0
+
+a241
+Who was the financier that intervened during the Panic of 1907 to shore up the banking system and is the founder of a prominent US financial institution?
+0
+
+8
+The demand for widgets in Country A is Q=20-P and the domestic supply is Q=P. The world price of widgets is $5. What is the quota limit that will have the same impact as a $1 per unit tariff?
+0
+
+a177
+To which economist is the principle that fiscal stimulus has a multiplicative effect attributed?
+0
+
+a242
+What is the term for the slope of an indifference curve?
+0
+
+a243
+True or false: All Giffen goods are inferior goods.
+0
+
+a37
+How does unexpected deflation affect the debt burden?
+0
+
+500
+Country Y has a GDP of $1000, investment of $200, government purchases of $200, and net exports of $100. How much is the consumption?
+0
+
+90
+The nominal GDP of Country X is $90 billion.  The real GDP is $100 billion. The value of the GDP deflator in base year was 100. What is the value of the GDP deflator now?
+0
+
+a244
+It is possible for indifference curves to cross.
+0
+
+a245
+What is the term used to describe the cost to an economy when growth slows or stops in order to combat inflation?
+0
+
+a246
+Which empirical “law” relates deviations in unemployment with deviations in GDP?
+0
+
+a81
+Which interest rate is usually higher, the Federal Funds rate or the Discount rate?
+0
+
+a250
+Welfare, Medicaid, or Social Security: which is NOT a means-tested program?
+0
+
+-1.1
+Will earns $100 this year and has no income next year. The interest rate is 10%. If you were to plot “spending this year” on the x-axis and “spending next year” on the y-axis, what is the slope of Will’s budget constraint? 
+0
+
+-14
+The real GDP of Country Y in 2009 was $100 trillion. The real GDP in 2010 is $86 trillion. What is the percent rate of change in real GDP from year 2009 to 2010?
+0
+
+a103
+Monetary policy or fiscal policy: which has a shorter decision lag?
+0
+
+a251
+Which economist received the Nobel Prize in Economics for his work on rational expectations theory?
+0
+
+a37
+Assume both current and future consumption are normal goods. Income is earned only today. If the interest rate falls, what will happen to current consumption?
+0
+
+a179
+What is the term that refers to a central bank’s purchase of long term government bonds and other assets in order to implement expansionary monetary policy in a severe recession?
+0
+
+a212
+What is the term for the relationship between nominal interest rate, real interest rate, and inflation?
+0
+
+a252
+What theory explains how interest rates are determined, and why they are higher on longer-term assets?
+0
+
+a253
+What is the Latin term used in Economics for 'all other things being equal'?
+0
+
+#National Economics Challenge Questions (extra)
+
+a50
+Three of the 4 factors of production are land, labor and entrepreneurship. What is the fourth?
+0
+
+a2
+A rational person should refrain from taking an action if the marginal benefit is less than the:
+0
+
+a255
+The expression "Supply creates its own demand" is known as:
+0
+
+a195
+The minimum amount of profit required to keep a competitive firm in operation in the long run is called:
+0
+
+a256
+The great Depression of the 1930's coincided with the development of which major school of macroeconomics?
+0
+
+a45
+Having control of an essential resource and having an exclusive government franchise are both examples of:
+0
+
+a222
+The merger of Exxon and Shell would be an example of what type of merger?
+0
+
+a256
+Which major school of macroeconomic theory advocates for using active fiscal policy to counteract a recession or depression?
+0
+
+a113
+If people buy fewer used books as the economy pulls out of a recession, then used books are what type of good?
+0
+
+a259
+If a natural disaster occurs, and the Federal Reserve steps in to provide liquidity to the financial markets, then we can say it is acting in what role?
+0

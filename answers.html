@@ -13,19 +13,19 @@
         <script src="resources/js/jquery.quickselect.js" type="text/javascript"></script>
 		<script type="text/javascript">
 		function init(dummy){
-                           $("#loadStatus").html("Answers loaded. Beginning Init...");
+            $("#loadStatus").html("Answers loaded. Beginning Init...");
 			for (var i = 0; i < answers.length; i++){
 				answers[i] = i + ": " + answers[i];
 			}
 			$("#answerTextfield").quickselect({
 				data : answers
 			});
-                           $("#loadStatus").html("Answers loaded. Init complete.");
+            $("#loadStatus").html("Answers loaded. Init complete.");
 		}
-                  $(document).ready(function() {
-                      $("#loadStatus").html("Loading Answers...");
+        $(document).ready(function() {
+			$("#loadStatus").html("Loading Answers...");
 		    loadAnswers(init);
-                  });
+        });
 		</script>
 	</head>
 	<body>

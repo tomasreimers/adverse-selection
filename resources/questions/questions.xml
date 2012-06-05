@@ -294,11 +294,6 @@
 				<string>0</string>
 			</array>
 			<array>
-				<string>a222</string>
-				<string>If Bryan's marginal utility never decreases, what is his demand curve like</string>
-				<string>0</string>
-			</array>
-			<array>
 				<string>a111</string>
 				<string>A (normal) good's price increases and makes the buyers feel poorer causing them to purchase less of it, this effect is called:</string>
 				<string>0</string>
@@ -320,7 +315,47 @@
 			</array>
 			<array>
 				<string>a80</string>
-				<string>Suppose Jim is at a Red Sox game. Jim finds that his first hot dog tastes better than his second, and his second tastes better than his third. This show’s Jim’s tastes are consistent with the economics principle of:</string>
+				<string>Suppose Joshua is at a Red Sox game. Joshua finds that his first hot dog tastes better than his second, and his second tastes better than his third. This show’s Joshua’s tastes are consistent with the economics principle of:</string>
+				<string>0</string>
+			</array>
+			<array>
+				<string>3</string>
+				<string>Utility is maximized after consuming how many hotdogs?</string>
+				<string>6</string>
+			</array>
+			<array>
+				<string>2</string>
+				<string>Diminishing marginal utility occurs after which hotdog?</string>
+				<string>6</string>
+			</array>
+			<array>
+				<string>6</string>
+				<string>What is the utility gained from eating 1 hotdog?</string>
+				<string>6</string>
+			</array>
+			<array>
+				<string>18</string>
+				<string>What is the utility gained from eating 2 hotdogs?</string>
+				<string>6</string>
+			</array>
+			<array>
+				<string>18</string>
+				<string>What is the utility gained from eating 4 hotdogs?</string>
+				<string>6</string>
+			</array>
+			<array>
+				<string>3</string>
+				<string>A hotdog cost $2, what is the marginal utility per dollar of the 1st hotdog?</string>
+				<string>6</string>
+			</array>
+			<array>
+				<string>6</string>
+				<string>A hotdog cost $2, what is the marginal utility per dollar of the 2st hotdog?</string>
+				<string>6</string>
+			</array>
+			<array>
+				<string>2</string>
+				<string>Bryan's last coke gave him 42 utils per dollar. If he is maximizing utility and his last cookie provided him with 84 utils, how much did it cost (in dollars)?</string>
 				<string>0</string>
 			</array>
 		</array>
@@ -523,13 +558,28 @@
 		<array>
 			<string>Oligopolies and Monopolistic Competition (micro)</string>
 			<array>
+				<string>a141</string>
+				<string>A market with only a few firms is called a:</string>
+				<string>0</string>
+			</array>
+			<array>
+				<string>a10</string>
+				<string>A market with many firms that have slightly differenciated products is called a ___ market.</string>
+				<string>0</string>
+			</array>
+			<array>
+				<string>a197</string>
+				<string>OPEC is an example of a:</string>
+				<string>0</string>
+			</array>
+			<array>
 				<string>0</string>
 				<string>A monopolistically competitive firm can earn ___ profit in the long run if the other firms are earning $25 profit in the short run?</string>
 				<string>0</string>
 			</array>
 			<array>
 				<string>a45</string>
-				<string>Monopolistically competitive firm can't earn profit in the long run because of ___.</string>
+				<string>Monopolistically competitive firm can't earn profit in the long run because there are no ___.</string>
 				<string>0</string>
 			</array>
 			<array>
@@ -763,6 +813,21 @@
 				<string>Lighthouses are considered examples of what type of goods</string>
 				<string>0</string>
 			</array>
+			<array>
+				<string>a58</string>
+				<string>Rival, excludable: Name the type of good.</string>
+				<string>0</string>
+			</array>
+			<array>
+				<string>a57</string>
+				<string>non-rival, excludable: Name the type of good.</string>
+				<string>0</string>
+			</array>
+			<array>
+				<string>a59</string>
+				<string>rival, non-excludable: Name the type of good.</string>
+				<string>0</string>
+			</array>
 		</array>
 		<array>
 			<string>Intro, GDP, CPI, Unemployment, Inflation (macro)</string>
@@ -845,6 +910,26 @@
 		<array>
 			<string>AD, AS, LRAS, and Econ Growth (macro)</string>
 			<array>
+				<string>a28</string>
+				<string>What curve demonstrates the combined production of all the producers in a nation in the short run?</string>
+				<string>0</string>
+			</array>
+			<array>
+				<string>a29</string>
+				<string>What curve demonstrates the combined production of all the producers in a nation in the long run?</string>
+				<string>0</string>
+			</array>
+			<array>
+				<string>a30</string>
+				<string>What curve demonstrates the combined wants of all the consumers in a nation?</string>
+				<string>0</string>
+			</array>
+			<array>
+				<string>a39</string>
+				<string>Which way will the demand curve as a result of an improvement in technology?</string>
+				<string>0</string>
+			</array>
+			<array>
 				<string>a39</string>
 				<string>Which way will the demand curve as a result of an improvement in technology?</string>
 				<string>0</string>
@@ -923,8 +1008,13 @@
 				<string>0</string>
 			</array>
 			<array>
-				<string>a266</string>
+				<string>a226</string>
 				<string>Will lenders or borrowers experience losses if inflation increases unexpectedly?</string>
+				<string>0</string>
+			</array>
+			<array>
+				<string>a227</string>
+				<string>Will lenders or borrowers experience losses if deflations occurs unexpectedly?</string>
 				<string>0</string>
 			</array>
 			<array>
@@ -934,7 +1024,7 @@
 			</array>
 			<array>
 				<string>a228</string>
-				<string>What is the term used to describe the impact of rapid growth of the money supply?</string>
+				<string>What is the term used to describe the impact of rapid growth of the money supply due to the government funding its debt by printing additional money?</string>
 				<string>0</string>
 			</array>
 			<array>
@@ -965,6 +1055,16 @@
 			<array>
 				<string>5</string>
 				<string>If the required reserve ratio is 20%, what is the numerical value of the money multiplier?</string>
+				<string>0</string>
+			</array>
+			<array>
+				<string>a189</string>
+				<string>The property of money which allows it to be used as a way to write prices or remember the value of a loan?</string>
+				<string>0</string>
+			</array>
+			<array>
+				<string>a211</string>
+				<string>Name the United State's banking system in which banks can lend out a portion of their reserves.</string>
 				<string>0</string>
 			</array>
 		</array>

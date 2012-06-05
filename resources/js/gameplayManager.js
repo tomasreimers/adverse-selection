@@ -65,7 +65,6 @@ function beginGame(whatLoaded){
         answersLoaded = true;
         // load answers to autocomplete
 	var numberOfResults = Math.round(($(document).height() - 437) / 20);
-	alert("Initing text field");
 	$("#answerTextfield").quickselect({
             data : answers,
             onItemSelect: makeGuess,
@@ -305,13 +304,11 @@ function buzz(whichTeam){
 		$(toShow)[0].disabled = false;
 		$(toShow)[0].focus();
 		// bind enter key to number question box
+		$(toShow).unbind("keypress");
 		if (currentlyNumberQuestion){
 			$(toShow).keypress(function(event){
 				numberAnswerBoxKeypress(event);
 			});
-		}
-		else{
-			$(toShow).unbind("keypress");
 		}
         // show which team is guessing
         var buzzerId = "#buzz" + whichTeam;

@@ -40,6 +40,9 @@ function createButtons(){
 	for (i = 0; i < categoryOptions.length; i ++){
 		$("#categorySelectionBox ul").append("<li><a id='category" + i + "' class='customCheckbox checked' href='#' onclick='toggleCategories(" + i + ")'>" + categoryOptions[i] + "<span class='count'>" + categoryCounts[i] + " questions</span></a></li>");
 	}
+	// make sure body background is high enough
+	var neededHeight = $("#leftHalf").height() + 10;
+	$("body").css("min-height", neededHeight + "px");
 	// select the default radio buttons
 	selectRadio("time" + time);
 	selectRadio("round" + rounds);

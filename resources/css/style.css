@@ -6,34 +6,20 @@
        url('../font/EraserRegular.ttf') format("truetype");   
 }  
 html{
-    margin:0px;
     height:100%;
-    overflow:hidden;
     background-image:url(../img/wood.png);
-    padding:10px;
     font-family:'myChalkboard', 'arial', sans-serif;
 }
 body {
-    margin:0px;
-    height:100%;
-    overflow:hidden;
+    position:absolute;
+	bottom:0;
+	top:0;
+	left:0;
+	right:0;
+	margin: 10px;
     background-color:#01190F;
-    padding:10px
-}
-#header {
-    position:relative;
-    margin-top:10px;
-    margin-bottom:100px;
-    font-size:0;
-}
-.glue {
-    height:0;
-    clear:both;
 }
 /******************* Home ************************/
-body {
-	margin: 0;
-}
 h1 {
     display:block;
     color:#FFF;
@@ -64,17 +50,20 @@ h2 {
 }
 #leftHalf {
 	position: absolute;
-	padding-top: 40px;
+	padding-top: 10px;
 	left: 0;
 	top: 0;
     width:50%;
 }
 #categorySelectionBox {
 	padding-left: 50px;
+	padding-right: 15px;
+	border-right:2px dashed #FFF;
+	padding-top: 30px;
 }
 #rightHalf {
 	position: absolute;
-	padding-top: 10px;
+	padding-top: 50px;
 	right: 0;
 	top: 0;
     width:50%;
@@ -82,8 +71,6 @@ h2 {
 #detailsBox {
 	text-align: center;
 	padding-right: 20px;
-	padding-top: 30px;
-    border-left:2px dashed #FFF;
 }
 #categorySelectionBox ul {
 	display: inline-block;
@@ -137,6 +124,16 @@ ul.compact li {
     border:2px solid #FFF;
 }
 /******************* Game ************************/
+#header {
+    position:relative;
+    margin-top:10px;
+    margin-bottom:100px;
+    font-size:0;
+}
+.glue {
+    height:0;
+    clear:both;
+}
 #header #rounds {
     position:absolute;
     top:0;
@@ -181,7 +178,7 @@ ul.compact li {
 }
 #question {
     margin-top:20px;
-    padding:10px;
+    padding:20px;
 	height:200px;
     font-size:36px;
     color:#FFF;
@@ -202,6 +199,7 @@ ul.compact li {
 }
 #questionText{
     margin-right:250px;
+	font-family:'arial', sans-serif;
 }
 #supplementalImage{
 	width: 200px;
@@ -277,7 +275,7 @@ ul.compact li {
     border-bottom:2px dotted #B58900;
     background-color:transparent !important;
     padding:5px;
-    font-family:'myChalkboard', 'arial', sans-serif;
+    font-family:'arial', sans-serif;
     color:#B58900 !important;
     font-size:16px;
 }
@@ -301,15 +299,4 @@ ul.compact li {
     text-decoration:none;
     color:#01190F;
 	font-weight:bold;
-}
-
-/* Bottom */
-
-#holder{
-    background-image:url(../img/wood.png);
-    height:10px;
-    width:100%;
-    position:absolute;
-    bottom:0;
-    left:0;
 }

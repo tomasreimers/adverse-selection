@@ -64,8 +64,9 @@ function beginGame(whatLoaded){
     if (whatLoaded == 'answers'){
         answersLoaded = true;
         // load answers to autocomplete
-		var numberOfResults = Math.round(($(document).height() - 437) / 20)
-        $("#answerTextfield").quickselect({
+	var numberOfResults = Math.round(($(document).height() - 437) / 20);
+	alert("Initing text field");
+	$("#answerTextfield").quickselect({
             data : answers,
             onItemSelect: makeGuess,
 			noResultsDefault: "I have no idea",
@@ -140,10 +141,12 @@ function startRound(){
 		}
 		// set displayed question and supplemental image
 		$("#questionText").html("");
+		$("#question").removeClass("withSupplement");
 		if (currentQuestion[2] != 0){
 			image = "resources/img/supplements/" + currentQuestion[2] + ".jpg";
 			$("#supplementalImage").attr("src", image);
-			$("#questionSupplement").show()
+			$("#questionSupplement").show();
+			$("#question").addClass("withSupplement");
 		}
 		else{
 			$("#questionSupplement").hide()

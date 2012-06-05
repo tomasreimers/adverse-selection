@@ -20,8 +20,10 @@
 			});
                            $("#loadStatus").html("Answers loaded. Init complete.");
 		}
-		$("#loadStatus").html("Loading Answers...");
-		loadAnswers(init);
+                  $(document).ready(function() {
+                      $("#loadStatus").html("Loading Answers...");
+		    loadAnswers(init);
+                  });
 		</script>
 	</head>
 	<body>

@@ -17,3 +17,7 @@ function finishLoadingAnswers(JQXML, callback){
 function answerToID(answer){
     return answers.indexOf(answer);
 }
+
+function IDToAnswer(ID){
+	return answers[ID];
+}

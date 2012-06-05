@@ -242,7 +242,8 @@ function outOfTime(){
         setTimeout(revealLetter, 2000);
     }
     else {
-        // both teams lost, next round
+        // both teams lost, show answer and next round
+		$("#answerTextfield")[0].value = IDToAnswer(currentQuestion[0].substring(1));
 		setTimeout(startRound, 2000);
     }
 }

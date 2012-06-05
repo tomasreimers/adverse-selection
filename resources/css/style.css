@@ -188,7 +188,7 @@ ul.compact li {
     position:relative;
 }
 #question.withSupplement {
-    margin-right:220px;
+    padding-right:220px;
 }
 #question #questionSupplement{
 	display: none;

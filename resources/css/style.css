@@ -127,6 +127,9 @@ ul.compact li {
     border:2px solid #FFF;
 }
 /******************* Game ************************/
+#gameBody {
+	overflow-x:hidden;
+}
 #header {
     position:relative;
     margin-top:10px;

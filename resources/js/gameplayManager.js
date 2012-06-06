@@ -17,7 +17,7 @@ var turnTime = 25;
 var turnTimeLeft = 0;
 var teamAlreadyFailed = 0; // 0: neither, 1: team 1, 2: team 2
 var teamCurrentlyAnswering;
-var currentlyGuessing = false;
+var canBuzz = false;
 var disabledCategories = new Array();
 var currentlyNumberQuestion = false;
 
@@ -65,13 +65,14 @@ function beginGame(whatLoaded){
     if (whatLoaded == 'answers'){
         answersLoaded = true;
         // load answers to autocomplete
-	var numberOfResults = Math.round(($(document).height() - 437) / 20);
-	$("#answerTextfield").quickselect({
+		var numberOfResults = Math.round(($(document).height() - 437) / 20);
+		$("#answerTextfield").quickselect({
             data : answers,
             onItemSelect: makeGuess,
 			noResultsDefault: "I have no idea",
 			maxVisibleItems: numberOfResults
         });
+		$("#answerTextfield")[0].disabled = true;
     }
 	if (whatLoaded == 'sound'){
 		soundLoaded = true;
@@ -127,7 +128,6 @@ function startRound(){
 		$("#numberAnswerTextfield")[0].blur();
 		$("#numberAnswerTextfield")[0].value = "";
 		$("#numberAnswerTextfield")[0].disabled = true;
-		currentlyGuessing = false;
 		teamAlreadyFailed = 0;
 		toggleRounds();
         $("#buzz1 .buzzer, #buzz2 .buzzer").removeClass("inverted");
@@ -166,6 +166,8 @@ function createQuestionText(question){
 }
 
 function revealLetter(){
+	// allow buzzing to occur
+	canBuzz = true;
 	// if space, reveal another letter
 	if (currentQuestion[1][currentLetter] == ' '){
 		currentLetter ++;
@@ -206,7 +208,20 @@ function countdown(){
 }
 
 function awardPoint(whichTeam){
-	correctSound.play()
+	correctSound.play();
+	// modify rounds text and disable correct text field
+	toggleRounds();
+	if (currentlyNumberQuestion){
+		toChange = "#numberAnswerTextfield";
+		
+	}
+	else{
+		toChange = "#answerTextfield";
+	}
+    $(toChange)[0].blur();
+    $(toChange)[0].value = "";
+    $(toChange)[0].disabled = true;
+	// change score
     if (whichTeam == 1){
         team1Score++;
     }
@@ -221,7 +236,7 @@ function awardPoint(whichTeam){
 }
 
 function outOfTime(){
-	wrongSound.play()
+	wrongSound.play();
     // modify rounds text and disable correct text field
 	toggleRounds();
 	if (currentlyNumberQuestion){
@@ -238,7 +253,6 @@ function outOfTime(){
     // see if other team has already lost, or if they need a shot
     if (teamAlreadyFailed == 0){
         teamAlreadyFailed = teamCurrentlyAnswering;
-        currentlyGuessing = false;
         setTimeout(revealLetter, 2000);
     }
     else {
@@ -284,7 +298,7 @@ function newGame(){
 
 $(document).keydown(function(event){
 	//for buzz key presses
-	if (!currentlyGuessing){
+	if (canBuzz){
 		var code = event.keyCode;
 		// buzz for correct code and prevent key from being entered in text field
 		switch (code){
@@ -301,12 +315,12 @@ $(document).keydown(function(event){
 });
 
 function buzz(whichTeam){
-    if ((whichTeam != teamAlreadyFailed) && !currentlyGuessing){
+    if ((whichTeam != teamAlreadyFailed) && canBuzz){
+		// update status
+        canBuzz = false;
+        teamCurrentlyAnswering = whichTeam;
         // stop revealing letters
         clearTimeout(nextLetterTimeoutHandle);
-        // update status
-        currentlyGuessing = true;
-        teamCurrentlyAnswering = whichTeam;
         // display the correct text field and give it focus
 		var toShow, toHide;
 		if (currentlyNumberQuestion){

@@ -72,6 +72,9 @@ h2 {
 	text-align: center;
 	padding-right: 20px;
 }
+#detailsBox ul {
+	padding: 0;
+}
 #categorySelectionBox ul {
 	display: inline-block;
 }

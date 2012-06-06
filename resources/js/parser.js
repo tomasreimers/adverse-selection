@@ -10,7 +10,7 @@ function parseQuestions(txtData){
 				questions.push(currentSection);
 			}
 			currentSection = []
-			currentSection.push(lines[i].substring(1));
+			currentSection.push(htmlEncode(lines[i].substring(1)));
 		}
 		// check for new question
 		else if (lines[i] == '' && lines[i + 2] != ''){
@@ -32,4 +32,13 @@ function parseAnswers(txtData){
 		answers.push($.trim(lines[i]));
 	}
 	return answers;
+}
+
+function htmlEncode(value){
+    if (value){
+        return jQuery("<div />").text(value).html();
+    }
+	else{
+        return "";
+    }
 }

@@ -5,7 +5,7 @@ A certain economy can only produce corn and computers. The graph that shows how 
 0
 
 a165
-What is the main contraint in the allocation of resources?
+What is the main constraint in the allocation of resources?
 0
 
 2
@@ -127,7 +127,7 @@ As Joshua treats hamburgers and hotdogs as substitute goods. What will happen to
 0
 
 a37
-According to the law of demand, quanity decreases if price does what?
+According to the law of demand, quantity decreases if price does what?
 0
 
 a5
@@ -169,7 +169,7 @@ Bryan increase the price of pizza at his store and starts making less revenue, t
 0
 
 a38
-Econ Textbooks Inc has an economic consultant come in. If the consultant determiens the books are elastic goods, he will advise the comapny to do what to their price to increase profit?
+Econ Textbooks Inc has an economic consultant come in. If the consultant determines the books are elastic goods, he will advise the company to do what to their price to increase profit?
 0
 
 a214
@@ -177,7 +177,7 @@ A binding price floor is imposed on a good, their is now a ___ of the good.
 0
 
 a39
-A price ceiling is imposed above the equilibrium price, how is the quanity affected?
+A price ceiling is imposed above the equilibrium price, how is the quantity affected?
 0
 
 a90
@@ -247,7 +247,7 @@ Let a be the marginal utility per dollar of good a, and b be the mu/$ of good b.
 0
 
 a80
-Suppose Joshua is at a Red Sox game. Joshua finds that his first hot dog tastes better than his second, and his second tastes better than his third. This show’s Joshua’s tastes are consistent with the economics principle of:
+Suppose Joshua is at a Red Sox game. Joshua finds that his first hot dog tastes better than his second, and his second tastes better than his third. This shows Joshua’s tastes are consistent with the economics principle of:
 0
 
 3
@@ -305,7 +305,7 @@ The average cost for producing a product:
 3
 
 1
-(In dollars, i.e. "3") Unit afterwhich diminishing marginal returns are experianced:
+(In dollars, i.e. "3") Unit after which diminishing marginal returns are experienced:
 3
 
 12
@@ -325,15 +325,15 @@ What change will an increase in the rent of the factory have on ATC in the long 
 0
 
 a2
-Change in total cost divided by change in quanity equals
+Change in total cost divided by change in quantity equals
 0
 
 a82
-When Joshua doubles all inputs and output more than doubles he is experiancing:
+When Joshua doubles all inputs and output more than doubles he is experiencing:
 0
 
 a83
-When Bryan halves all inputs and output more than halves, he is experiancing:
+When Bryan halves all inputs and output more than halves, he is experiencing:
 0
 
 a79
@@ -341,7 +341,7 @@ Bryan opens a car wash; the fourth worker cleans less cars than the third worker
 0
 
 2
-After which worker are diminishing marginal returns experianced?
+After which worker are diminishing marginal returns experienced?
 5
 
 15
@@ -379,7 +379,7 @@ A PC firm shuts down in the short run if price is below the lowest point in whic
 0
 
 0
-If a PC firm has variable cosst of $24 and fixed costs of $33 what is the maximum profit it can make in the long run?
+If a PC firm has variable cost of $24 and fixed costs of $33 what is the maximum profit it can make in the long run?
 0
 
 a39
@@ -445,7 +445,7 @@ A market with only a few firms is called a:
 0
 
 a10
-A market with many firms that have slightly differenciated products is called a ___ market.
+A market with many firms that have slightly differentiated products is called a ___ market.
 0
 
 a197
@@ -461,7 +461,7 @@ Monopolistically competitive firm can't earn profit in the long run because ther
 0
 
 a4
-A monopolistically competitive firm at equalibrium will charge where the demand curve touches which curve?
+A monopolistically competitive firm at equilibrium will charge where the demand curve touches which curve?
 0
 
 a38
@@ -503,7 +503,7 @@ If students can pay half price for tickets to a concert, while non-students pay 
 #Markets for Factors of Production (micro)
 
 a214
-A minmum wage will cause a ___ in the labor market.
+A minimum wage will cause a ___ in the labor market.
 0
 
 a119
@@ -515,7 +515,7 @@ A firm should hire until ___ equals marginal factor cost.
 0
 
 a200
-The cost of an additional worker is refered to as:
+The cost of an additional worker is referred to as:
 0
 
 a39
@@ -551,19 +551,19 @@ A bakery needs to buy apples in order to produce apple pies. What is the term fo
 0
 
 100
-The town of derpopolis contains 200 people. 120 are of workign age. Of those people: 15 don't want work, 5 have given up looking for work, 79 have a full-time job, 11 have a part-time job and would like to get a full time job, and 10 are activily looking for work. How many people in the labor force?
+The town of Bryanopolis contains 200 people. 120 are of working age. Of those people: 15 don't want work, 5 have given up looking for work, 79 have a full-time job, 11 have a part-time job and would like to get a full time job, and 10 are actively looking for work. How many people in the labor force?
 0
 
 10
-The town of derpopolis contains 200 people. 120 are of workign age. Of those people: 15 don't want work, 5 have given up looking for work, 79 have a full-time job, 11 have a part-time job and would like to get a full time job, and 10 are activily looking for work. How many people are unemployed?
+The town of Bryanopolis contains 200 people. 120 are of working age. Of those people: 15 don't want work, 5 have given up looking for work, 79 have a full-time job, 11 have a part-time job and would like to get a full time job, and 10 are actively looking for work. How many people are unemployed?
 0
 
 10
-The town of derpopolis contains 200 people. 120 are of workign age. Of those people: 15 don't want work, 5 have given up looking for work, 79 have a full-time job, 11 have a part-time job and would like to get a full time job, and 10 are activily looking for work. What is the unemployment rate (in percent)?
+The town of Bryanopolis contains 200 people. 120 are of working age. Of those people: 15 don't want work, 5 have given up looking for work, 79 have a full-time job, 11 have a part-time job and would like to get a full time job, and 10 are actively looking for work. What is the unemployment rate (in percent)?
 0
 
 a119
-The town of derpopolis contains 200 people. 120 are of workign age. Of those people: 15 don't want work, 5 have given up looking for work, 79 have a full-time job, 11 have a part-time job and would like to get a full time job, and 10 are activily looking for work. What do you call the group of 5 people?
+The town of Bryanopolis contains 200 people. 120 are of working age. Of those people: 15 don't want work, 5 have given up looking for work, 79 have a full-time job, 11 have a part-time job and would like to get a full time job, and 10 are actively looking for work. What do you call the group of 5 people?
 0
 
 a116
@@ -617,7 +617,7 @@ An ice cream cone is a ___ good.
 0
 
 a21
-A chocolate factory makes a pleasent smell which everyone enjoys whether or not they buy the chocalate. The smell is a:
+A chocolate factory makes a pleasant smell which everyone enjoys whether or not they buy the chocolate. The smell is a:
 0
 
 a59
@@ -911,7 +911,7 @@ What is the numerical value of the income multiplier if the Marginal Propensity 
 #Phillips curve, loanable funds, and Exchange Rate (macro)
 
 a34
-The phillips curve depicts the relationship between inflation and ___.
+The Phillips curve depicts the relationship between inflation and ___.
 0
 
 a37

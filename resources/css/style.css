@@ -126,6 +126,16 @@ ul.compact li {
     text-decoration:none;
     border:2px solid #FFF;
 }
+#fontAttribution {
+    position:absolute;
+    right:5px;
+    bottom:5px;
+    color:#FFF;
+    font-size:10px;
+}
+#fontAttribution a{
+    color:#FFF;
+}
 /******************* Game ************************/
 #gameBody {
 	overflow-x:hidden;

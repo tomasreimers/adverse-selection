@@ -1,5 +1,9 @@
 # About
 
+## Play 
+
+[http://github.com/tomasreimers/adverse-selection](http://github.com/tomasreimers/adverse-selection)
+
 ## Title
 
 Adverse Selection

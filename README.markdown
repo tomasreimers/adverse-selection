@@ -2,7 +2,7 @@
 
 ## Play 
 
-[http://github.com/tomasreimers/adverse-selection](http://github.com/tomasreimers/adverse-selection)
+[http://tomasreimers.github.com/adverse-selection](http://tomasreimers.github.com/adverse-selection)
 
 ## Title
 

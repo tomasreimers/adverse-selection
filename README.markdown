@@ -108,3 +108,7 @@ if (){ // one space between control flow and parens to avoid confusion with func
 * Directions (Horizontal, vertical)
 * Vocab
 * Numerical (not autocompleted)
+
+## Copyright 
+
+Copyright Tomas Reimers and Jeff Gortmaker, 2012
